@@ -10,7 +10,6 @@
     <fstream>      | open file for read & write      
     <vector>       | Dynamic array (vector)
 
-
 #_Baisic Skeleton of cpp :-
 
     #include <iostream>  // 1. Preprocessor Directive
@@ -43,10 +42,3 @@
 #_STL :-
 STL Container is a ready-made data structure in C++ used to store and manage multiple values easily and efficiently.
 -> There are three types of stl - 1. container, 2. itrator, 3. algorithem                
-
-      
-
-
-
-
-
