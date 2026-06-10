@@ -189,7 +189,7 @@ it was centralized state manager for JavaScript apps
 #_Redux Toolkit :-
 it is Redux Toolkit (RTK)
 Redux Toolkit simplifies Redux setup
-   
+
     Why we use : 
     1. Less boilerplate: no separate action creators/reducers
     2. Better performance: uses Immer.js for state updates
@@ -202,4 +202,7 @@ Redux Toolkit simplifies Redux setup
 
     RTK Query :
     it makes easy to data fetching and caching in Redux Toolkit
-    - it makes API calls, caching, and updates automatic in Redux
+    - it makes API calls, caching, and updates automatic in Redux 
+
+#_Template :-
+it is a keyword to reuse the piece of code for a several data types
