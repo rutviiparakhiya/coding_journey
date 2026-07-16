@@ -1,4 +1,4 @@
-                                                            REACT JS
+REACT JS
 
 #_Real DOM :-
 it is the actual browser document object model that represents the ui structure
@@ -25,14 +25,12 @@ rerendering |full rerendering                 |selective updates via diffing
 
 #_map :-
 it takes each item from an (old) array, does somthing to it and returns a new array with the results
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/06.react_map.md#using-map-in-react]
 
 #_Components :-
 it is reusable piecies used to build the ui
 
 #_Props :- (data passed from parent to child)
 props are inputs that control how a component looks or behaves
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/08.react_props.md#basic-example-passing-props-to-child-components]
 
 - it is read-only (cannot be changed)
 - it helps to send data or functions
@@ -40,48 +38,38 @@ props are inputs that control how a component looks or behaves
 
 #_props drilling :-
 passing data through many components
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/08.react_props.md#7-prop-drilling]
 
 parent - child - grandchild - greatgrand child
 
 #_Use State :-
 it is used to store data in component and to be update the data
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/09.react_useState.md#3-updating-state]
 
 #_Use Effect :-
 it runs extra code after component renders
 it is used for : - Fetching data (API)
                  - Changing page title
                  - Adding event listeners
-                 - Running animations
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/10.react_useEffect.md#2-basic-usage-of-useeffect]                 
+                 - Running animations           
 
 #_react-lifecycle :-
 React Lifecycle = stages of a component’s life
     1. Mounting → Component is created and shown on screen
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/11.react_lifecycle. md#1-mounting-phase-when-the-component-is-created-and-inserted-into-the-dom]
 
-    2. Updating → Component updates when data (state/props) changes 
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/11.react_lifecycle. md#2-updating-phase-when-the-components-state-or-props-change]
+    2. Updating → Component updates when data (state/props) changes
 
     3. Unmounting → Component is removed from screen
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/11.react_lifecycle. md#3-unmounting-phase-when-the-component-is-removed-from-the-dom]
 
 #_Class based components :-
 Class Component = component made using a class (It uses render() method to show UI)
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/12.react_classbased_components.md#1-what-are-class-based-components]
 
 #_Function Components :-
 A function component is a JavaScript function that returns JSX to show UI and can take data using props.
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/02.react_functions.md#2-function-components]
 
 #_What is react context :-
 Context API = global data share karva mate
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/14.react_useContext.md#1-what-is-react-context]
 
 #_Use Context :-
 useContext = get global data in any component without prop drilling
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/14.react_useContext.md#4-practical-example-theme-switching]
 
 #_Use Memo :-
 it saves a calculated value and only recalculate if needed (optimize performance by remembering values)
@@ -89,15 +77,11 @@ it saves a calculated value and only recalculate if needed (optimize performance
     Why we use :
     - Re-run any calculations inside the component
 
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/15.react_useMemo_and_useCallback.md#how-usememo-works]
-
 #_Use CallBack :- (React hook)
 it saves a function so it doesn’t change on every render
 
     Why we use :
     - Re-create functions inside the component
-
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/15.react_useMemo_and_useCallback.md#how-usecallback-works]
 
 #_Use Ref :-
 it stores a value or DOM element without re-render
@@ -107,8 +91,6 @@ it stores a value or DOM element without re-render
     2. Storing a mutable value that persists across renders
     3. Avoiding unnecessary re-renders by not storing frequently updated values in the state
 
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/16.react_useRef.md#example-1-accessing-the-dom]
-
 #_Use Reducer :-
 it manage complex state like useState
 
@@ -116,8 +98,6 @@ it manage complex state like useState
     1. Handles Complex State
     2. Improves Readability
     3. Predictable State Updates
-
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/17.react_useReducer.md#basic-example-a-counter-with-usereducer]
 
 #_Custom Hooks :-
 it is a reusable function using React hooks
@@ -128,8 +108,6 @@ it is a reusable function using React hooks
     3. Simplifying Complex Components (it simplifies components by handling logic separately)
     4. Abstraction of Reusable Logic (it hides complexity and make components simple)
 
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/18.react_custom_hook.md#example-1-fetching-data-with-useeffect-and-usestate]
-
 #_React router dom :-
 
 #_Event loop :-
@@ -138,7 +116,6 @@ it decides the order of running code, including async tasks
 
 #_Async await :-
 it is easier, readable way to handle asynchronous tasks
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/21.react_async_explaination.md#how-asyncawait-works]
 
 #_Promises :-
 it manages async code in an organized way
@@ -148,11 +125,8 @@ it manages async code in an organized way
     2. Resolved: The operation completed successfully
     3. Rejected: The operation failed
 
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/21.react_async_explaination.md#2-promises]
-
 #_CallBack :-
 function passed to run after a task finishes
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/21.react_async_explaination.md#how-callbacks-work]
 
 #_Redux :-
 it was centralized state manager for JavaScript apps
@@ -175,11 +149,8 @@ it was centralized state manager for JavaScript apps
     Core concepts :
     1. Store → Holds the entire app state in one place
     2. Actions → Objects that describe what to do 
-                 [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/22.react_redux.md#b-actions]
     3. Reducers → Pure functions that define how state changes
-                  [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/22.react_redux.md#c-reducers]
     4. Dispatch → Sends an action to the reducer
-                  [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/22.react_redux.md#d-dispatch]
 
     middleware :
     it manages async operations in Redux easily              
@@ -198,7 +169,6 @@ Redux Toolkit simplifies Redux setup
 
     createAsyncThunk : 
     it handles API calls in Redux easily
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/react(sem_02)/23.react_redux_toolkit_intro.md#4-handling-async-operations-with-createasyncthunk]
 
     RTK Query :
     it makes easy to data fetching and caching in Redux Toolkit
@@ -206,3 +176,8 @@ Redux Toolkit simplifies Redux setup
 
 #_Template :-
 it is a keyword to reuse the piece of code for a several data types
+
+#_routing : 
+it is a process of navigating between different pages in a web application
+static route - users-> named folder
+dynamic route - user/[id] -> dynamic folder inside pages folder
