@@ -1,4 +1,4 @@
-                                            oops(object orianeted programing)
+oops(object orianeted programing) :-
 
 where object is entity(real world problem)
 entity :- exstis, space occupy, character, functioanlity
@@ -6,122 +6,104 @@ entity :- exstis, space occupy, character, functioanlity
 -> opps is a platfrom independent laungage.
 
 #_keywords :-
-1.this : execution ni under point kre ene this keyword kevay
+1.this : It refers to the current execution context.
 
-2.static: it is a variable ke je program end sudhi memory ma rahe chhe ane previous value remember rakhe chhe
+2.static: It is a variable that stays in memory until the program terminates and remembers its previous value.
 
-3.friend :it is use specially when we want to access the private or a protced member of a particular class via through a function which is define outside that class
+3.friend : It is use specially when we want to access the private or a protced member of a particular class via through a function which is define outside that class.
 
-4. virtual : it is a function in a base class that can be changed (overridden) in a derived class and is called at runtime using the virtual keyword
+4.virtual : It is a function in a base class that can be changed (overridden) in a derived class and is called at runtime using the virtual keyword.
 
 #_class :- 
-it is a blueprint/skeleton of object(object -> particular entity)
+It is a blueprint/skeleton of object(object -> particular entity)
 -> and it is a "keyword" to define a members(data members, function members)
 -> it not consume any space(memory)
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/05.encapsulation_abstraction.md#a-what-is-a-class]
 
 #_object :-
 An object is an instance of a class that represents a real-world entity and stores its own data.
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/05.encapsulation_abstraction.md#b-what-is-an-object]
 
 #_constructure :- 
-it is used to initialize of the value to a particular object members during object creation
+It is used to initialize of the value to a particular object members during object creation
 ->there are 2 types : 1.default, 2. parametarized 
 
-1. default - it is a special function that automatically initializes an object when it is created
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/13.constructor_and_destructor_behavior_in_inheritance.md#1-constructor-behavior-in-inheritance] 
+1. default - It is a special function that automatically initializes an object when it is created.
 
-2. parametarized - If the base class has a parameterized constructor, the derived class must call it and pass the required parameters [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/13.constructor_and_destructor_behavior_in_inheritance.md#2-constructor-with-parameters-in-inheritance]
+2. parametarized - If the base class has a parameterized constructor, the derived class must call it and pass the required parameters
 
 #_Destructre :-
-it is a kind of function but get call automatically by c++ compiler when a particular object is about to get destroy because of the block scope.
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/13.constructor_and_destructor_behavior_in_inheritance.md#3-destructor-behavior-in-inheritance]
+It is a kind of function but get call automatically by c++ compiler when a particular object is about to get destroy because of the block scope.
 
 #_inheritance :- 
-Inheritance is used to create a child class from a parent class, where common properties are in the parent class and distinct properties are in the child class
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/06.inheritance_polymorphism.md#a-what-is-inheritance]
+It is used to create a child class from a parent class, where common properties are in the parent class and distinct properties are in the child class.
     
-    1. single_inheritance : it is used to make a clidren class.
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/11.inheritance_in_depth.md#a-single-inheritance]
+    1. single_inheritance : It is used to make a clidren class.
 
-    2. multilevel_inheritance : it is when a class inherits from another derived (child) class.
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/11.inheritance_in_depth.md#c-multilevel-inheritance]
+    2. multilevel_inheritance : It is when a class inherits from another derived (child) class.
 
-    3. multiple_inheritance : it is when a class inherits properties from more than one base (parent) class
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/11.inheritance_in_depth.md#b-multiple-inheritance]
+    3. multiple_inheritance : It is when a class inherits properties from more than one base (parent) class
+
         (i)same-method : Same method means two or more functions have the same name but different parameters
-        (ii)constructre : A constructor is a special function of a class that runs automatically when an object is created
+        (ii)constructre : A constructor is a special function of a class that runs automatically when an object is created.
 
-    4. hirarical_inheritance : it means multiple derived (child) classes inherit from a single base (parent) class
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/11.inheritance_in_depth.md#d-hierarchical-inheritance]
+    4. hirarical_inheritance : It means multiple derived (child) classes inherit from a single base (parent) class.
 
-    5. hybrid_inheritance : it combines two or more types of inheritance in one program
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/11.inheritance_in_depth.md#e-hybrid-inheritance]   
+    5. hybrid_inheritance : It combines two or more types of inheritance in one program.
 
 #Pass by value :-
-Pass by Value means the function gets a copy of the variable, not the original one
+It the function gets a copy of the variable, not the original one.
 -> So if the function changes the value, it only changes the copy, and the original variable stays the same
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/09.passbyvalue_passbyreference.md#pass-by-value]
 
 #Pass by refrence :-
-Pass by Reference means the function gets the actual variable’s address, not a copy
+It means the function gets the actual variable’s address, not a copy
 -> So when the function changes the value, it changes the original variable directly
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/09.passbyvalue_passbyreference.md#what-is-pass-by-reference]
 
 #Static-members :-
-Static Members are variables or functions that belong to the class, not to individual objects
+Static Members are variables or functions that belong to the class, not to individual objects.
 -> This means all objects of the class share the same static member
 
-there are 2 types of static members : 1.static-variable, 2.static-function
+    there are 2 types of static members : 1.static-variable, 2.static-function
 
-1.static-variable  - A static variable is a variable that is shared by all objects of a class and belongs to the class, not to a single object
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/10.static_members.md#1-static-variables]
+        1.static-variable  - A static variable is a variable that is shared by all objects of a class and belongs to the class, not to a single object
 
-2.static-function - A static function is a function that belongs to the class, not to an object. It can only use static variables and static functions and can be called using the class name without creating an object
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/10.static_members.md#2-static-functions]
+        2.static-function - A static function is a function that belongs to the class, not to an object. It can only use static variables and static functions and can be called using the class name without creating an object
 
 #_virtual :-
-A virtual function is a function in a base class that can be changed (overridden) in a derived class and is called at runtime using the virtual keyword
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/14.virtual_functions_%26_pure_virtual_functions.md#1-virtual-functions-in-c]
+It is a function in a base class that can be changed (overridden) in a derived class and is called at runtime using the virtual keyword
 
 #Access-modifire :-
-it is a way through which you can provide the level of accessibilty for a security concerns to a particular class members upto which level it can be accessed.
+It is a way through which you can provide the level of accessibilty for a security concerns to a particular class members upto which level it can be accessed.
 
 types : 1.public, 2.private, 3.protected
 
-    1.public - it can be acces anywhere
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/07.access_modifires.md#2-public-access-specifier]
+    1.public - It can be acces anywhere
 
-    2.private - it is only use to the particular class not outside the class
-    ->private is type of acces modifer which is use for providing to accessibilty to a particular class members and the level of accessibilty 
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/07.access_modifires.md#3-private-access-specifier]
+    2.private - It is only use to the particular class not outside the class
+    ->private is type of acces modifer which is use for providing to accessibilty to a particular class members and the level of accessibilty
 
-    3.protected - it comes with flexibility (koi class ne use krvu hoy to ene children banvu pade access krva mate)
+    3.protected - It comes with flexibility (To use a class, it must become a child class in order to access it)
     ->the same rule must be follow by the childern class of that pervious of actual class
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/07.access_modifires.md#4-protected-access-specifier]
 
-    [https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/12.protected_members_and_access.md#protected-members-and-access-in-inheritance]
+#_Friend Function :- (we can access it outside any function)
+A friend function is not a member of the class, but it can access the class's private and protected members because the class declares it as a friend.
 
-#_Friend Function :- (koi pn class ni bar access kri sakay)
-Friend function class no member nathi, pan te class na private ane protected members access kari shake chhe, kem ke class eni andar ene friend tarike declare kare chhe
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/16.friend_functions_and_classes.md#a-what-is-a-friend-function]
+#_Friend class :- (It can be used in the class where it is declared without any errors.)
+It is a class that can access the private and protected members of another class because it has been declared as a friend.
 
-#_Friend class :- (je class ma use kayru e koi pn error vagar use kri sakay)
-Friend class evo class chhe je bija class na private ane protected members ne access kari shake chhe, kem ke ene friend tarike declare kari hoy chhe
-[https://github.com/RutviParakhiya2007/CGxSU_Semester_1/blob/main/cpp_language(sem_02)/16.friend_functions_and_classes.md#3-friend-classes-in-c]
+#_Encapsulation :- Encapsulation means wrapping data and functions into one class.
 
-#_Encapsulation :- 
+#_Abstraction :- Hide complexity and show only neccesary things.
 
-#_Abstraction :- (pure virtual function is used to list out the compulsory infromation to be displayed to the user)
-
-#_polymorphism :- 
+#_polymorphism :- Polymorphism means one name, many forms.
+                  It allows the same function to behave differently.
 (many+form) 
 
     1. Compile time polymorphism - 
         (i)function_overloading : (same function member) (same class)
         (ii)operator_overloading : (using same operator) (concating)
 
-    2. Run time polymorphism - a no. of function members which was define in a base class but it get overwrite by it's own derived(child) class but with some changes. 
+    2. Run time polymorphism - A no. of function members which was define in a base class but it get overwrite by it's own derived(child) class but with some changes. 
+
                              - it is used to impliment "function overloading" concept
-                             to implement "function overriding that the number of function must be defined already inside the parent class which will be overrider by it's own children 
+                             to implement "function overriding that the number of function must be defined already inside the parent class which will be overrider by it's own children
+
                              - but in child class in order to "override" the alreday defined function members inside parent classs -> write same function name, same parameter and same datatype
