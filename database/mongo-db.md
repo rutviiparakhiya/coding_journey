@@ -169,4 +169,3 @@ e.g. - db.collection.find(query)
                 .sort({ field: 1/-1 })
                 .skip()
                 .limit()
-                           
