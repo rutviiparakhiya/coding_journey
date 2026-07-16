@@ -1,4 +1,4 @@
-C++ :-
+C++
 
 #_File_handling :-
 1. Create a file and write and close the file (ofstream).
