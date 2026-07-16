@@ -1,4 +1,4 @@
-                                                    Mongo DB (NoSql-database)
+Mongo DB (NoSql-database)
 
 #_What is mongo-db?
 MongoDB is an open-source, document-oriented NoSQL database. (BSON = binary format of JSON)

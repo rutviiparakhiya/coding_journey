@@ -1,3 +1,5 @@
+REDIS
+
 redis is a sql database
 it is very useful for chacing
 it stores data in string data
