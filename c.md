@@ -1,5 +1,4 @@
-                                            		C(mid-level-language)
-
+C(mid-level-language)
 
 #_What is software?
 Software is a collection of programs.
@@ -41,15 +40,18 @@ Identifiers are used to identify the variables, function, or other program eleme
 			
 #_Data Types:
  Data types define the type of data where a variable can store.
+
 		1. Primitive: it stores simple value and its value stored directly in memory.
  	   		e.g. = int, char, float, double
  				(i)   singed  - it can store both positive and negative values.
  				(ii) unsinged - it can store only zero and positive.
- 		2. Non-primitive: it stores multiple values and stores an address in memory, actually includes						       Derived Enumeration.
+
+ 		2. Non-primitive: it stores multiple values and stores an address in memory, actually includes		Derived Enumeration.
  				(i)  Derived:    it can store multiple values.
  					e.g. = array, pointer, structure, union
  				(ii) Enumeration: A user-defined data type used to name integer constants.
 					e.g. = enum
+
  		3. Void: A function that doesn’t return anything
  			e.g. = void main();
 
@@ -97,14 +99,6 @@ converting one data type into another.
 
 #_Switch Case:
  A multi-way decision statement.
- 	e.g. = switch(choice)
- 		{
-   		   case 1: printf("One");
-                       break;
-    	      	   case 2: printf("Two");
-           	   break;
-   		   default: printf("Invalid");
- 		}
 
 #_Loop:
  	1. for loop ->
@@ -131,26 +125,17 @@ Difference between for, while and do-while loop :
 	          (iii) even if the condition is false, the loop executes one time. 
 
  	Break:    The break statement is used to exit a loop immediately.
+
  	Continue: The continue statement skips the current iteration** and jumps to the next iteration of the loop.
+
  	Goto:     goto is a jump statement used to transfer control to a labeled statement in a program.
- 		e.g. = int i = 1;
- 		        start:
- 		        printf("%d ", i);
- 		        i++;
- 		        if(i <= 3)
-    		        goto start;
 
 #_What is Array?
  An array stores multiple values of the same datatype in continuous memory.
- 	e.g. = int a[3] = {10, 20, 30}; 
-	       int a[2][3] = {
-    				      {1, 2, 3},
-    				      {4, 5, 6}
-			             };
 
 #_What is String? 
  A string is a collection of characters stored in an array.
- 		e.g. = char name[ ] = "Hello";
+
  		1. Character: A character string is an array of characters that	ends with a null character '\0'.
  			e.g. = char str[ ] = "C Programming";  // ends with '\0' automatically
  		2. Pointer: A pointer can point to the first character of a string for easy access and manipulation.
@@ -159,51 +144,18 @@ Difference between for, while and do-while loop :
 
 #_String Handling Functions:
 	1. strlen: length of string.
-		e.g. = int main(void) {
-    			char str[] = "Hello";
-			printf("Length: %zu\n", strlen(str));
-			return 0;
-			}
 
  	2. strcpy: Copy source to destination.
-		e.g. = int main(void) {
-    			char src[] = "Hi";
-    			char dest[10];
-			strcpy(dest, src);
-			printf("%s\n", dest);
-			return 0;
-			}
 
 	3. strcat: Append source to end of destination.
-		e.g. = int main(void) {
-    			char a[20] = "Hi ";
-    			char b[] = "there";
-			strcat(a, b);
-			printf("%s\n", a);
-			return 0;
-			}
 
 	4. strcmp: Compare two strings.
-		e.g. = int main(void) {
-    			char a[ ] = "cat";
-    			char b[ ] = "cat";
-			if (strcmp(a, b) == 0) {
-        			printf("Strings are equal\n");
-    			}
-    			    return 0;
-			} 
+
 	5. fgets(): To read the string
 	6. fputs(): To print/write the code
-		e.g. = #include <stdio.h>
-		     int main() {
-    		     	char str[30];
-    		       	fgets(str, 30, stdin);   // stdin = standard input -> Keyboard thi input leva									   mate use thay
-    		       	fputs(str, stdout);      // stdout = standard output -> Screen par output batava								mate use thay
-   		       		return 0;
-		      }
 
 #_What is a function?
-	A function is a block of code that performs a specific task.
+A function is a block of code that performs a specific task.
 	-> it helps to divide a program into smaller parts, making the program easy to understand, reuse and maintain.
 	
 	@key points :-
@@ -212,52 +164,17 @@ Difference between for, while and do-while loop :
 		-it reduces paragraph length.
 		-it improves readability.
 		-a function can be called multiple times.
-	e.g. = int sum (int a, int b)
-	       {
-			return a+b;
-	       }
-	     sum(2,3);
 
 	#_Parameters:  variables declared inside the function definition.
 	#_Arguments:  actual values or variables you supply when calling the function.
 	
 	=> Method of argument passing : 
-		@ Call by value : when we pass a variable to a function, the function gets a copy, not the original. So, The				        function changes only the copy and the original				        variable stays the same.
-			e.g. = #include <stdio.h>
-			     void change(int x) {
-    				      x = 10;
-			       }
-			       int main() {
-    				   	int a = 5;
-    				   	change(a);
-    				   	printf("%d", a);
-    				   return 0;
-			       }
+		@ Call by value : when we pass a variable to a function, the function gets a copy, not the original. So, The function changes only the copy and the original variable stays the same.
 
-		@ Call by reference : functions cannot directly change a variable, But if we send the address of the variable					     (using pointers), the function can reach and					     modify the original variable.
-			e.g. =  #include <stdio.h>
-				void change(int *x) {
-    				    *x = 10;
-				}
-				int main() {
-    				    int a = 5;
-    				    change(&a);
-    				    printf("%d", a);
-    				   return 0;
-				}
+		@ Call by reference : functions cannot directly change a variable, But if we send the address of the variable (using pointers), the function can reach and modify the original variable.
 
 #_Recursion:	
 A function repeatedly calls itself until a specified stopping condition (base case-it is the condition that stops recursion) is met.
-		e.g. = #include <stdio.h>
-			void printNumbers(int n) {
-    				if(n > 5) return;   // Base case
-    				printf("%d ", n);
-    				printNumbers(n + 1); // Recursive call
-			}
-			int main() {
-    				printNumbers(1);
-    			return 0;
-			}
 
 #_Debugging: Debugging is the process of finding and fixing errors (bugs) in a program.
 
@@ -296,67 +213,19 @@ A tool that runs before the actual compilation of a C program.
 #_Structure : 
 It is a user-defined data type that allows you to group different types of variables together under one name.
 ->Each member gets its own separate memory location. Total size = sum of all members (plus padding). All members can hold valid values simultaneously.
-		e.g. = #include <stdio.h>
-			 	struct Numbers {
-    			     int a;
-    			     int b;
-				};
-			int main() {
-    			     struct Numbers n1;
-    			     n1.a = 5;
-    			     n1.b = 10;
-			     	printf("a = %d, b = %d", n1.a, n1.b);
-    			   return 0;
-			}
 
 #_Union : 
 A user-defined data type, just like a structure, but all members share the same memory location.
 ->All members share the same memory location. Total size = maximum size of the largest member. Only one member is valid at a time.
-
-	e.g. = #include <stdio.h>
-		union Data {
-    		   int i;
-    		   char c;
-		};
-		int main() {
-    		   union Data d;
-    		   d.i = 5;    
-    		   printf("%d\n", d.i);
-    		   d.c = 'A';  
-    		   printf("%c\n", d.c);
-    		return 0;
-		}
 	
 => In a structure, each member has its own storage.
 => In a union, all members share the same memory space.
 
 #_Enumeration :
 It is a way to give names to a set of numbers.
-		e.g. =  #include <stdio.h>
-			 	enum Color { Red, Green, Blue };
-			 	int main() {
-    			   enum Color c;
-    			   c = Green;
-    			   printf("%d", c);  // prints 1
-    			 return 0;
-				}
 
 #_File handling :
-The process of storing data to a file or reading data from a file using a	program, Useful for storing data permanently (even after the program	ends)
-		e.g. = fopen(), fclose(), fprintf() / fscanf(),	fwrite() / fread()
-				#include <stdio.h>
-				int main() {
-    				    FILE *fp;
-    				    fp = fopen("data.txt", "a");
-    				    if (fp == NULL) {
-        			    printf("File error");
-        			return 1;
-    				}
-    				  fprintf(fp, " Students");
-    				  fclose(fp);
-    				  printf("Data appended successfully");
-    				  return 0;
-					}
+The process of storing data to a file or reading data from a file using a	program, Useful for storing data permanently (even after the program ends)
 
 #_Standard libraries :
 A collection of pre-written functions and code that you can use in your programs.
