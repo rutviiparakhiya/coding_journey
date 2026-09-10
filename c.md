@@ -42,7 +42,7 @@ Identifiers are used to identify the variables, function, or other program eleme
  Data types define the type of data where a variable can store.
 
 		1. Primitive: it stores simple value and its value stored directly in memory.
- 	   		e.g. = int, char, float, double
+ 	   		e.g. = int, char, float, double, bool, short, int, long, long long, long double, void
  				(i)   singed  - it can store both positive and negative values.
  				(ii) unsinged - it can store only zero and positive.
 
@@ -74,7 +74,7 @@ Identifiers are used to identify the variables, function, or other program eleme
 			
 #_What is Type Modifiers:
  Type modifiers are keywords that change the size or range of a data type in C.
- 		e.g. = short int, long int, signed int, unsigned int, long double,unsigned char.
+ 		e.g. = short int, long int, signed int, unsigned int, long double, unsigned char.
 
 #_What is Type casting?
 converting one data type into another.
@@ -209,6 +209,8 @@ storage classes |  scope  | life time |default value| storage
 A tool that runs before the actual compilation of a C program.
 	-> Works before compiling → prepares the code for the compiler
 		e.g. =  #include, #define, #ifdef, #ifndef, #endif
+
+USER DEFINE DATATYPES :-
 
 #_Structure : 
 It is a user-defined data type that allows you to group different types of variables together under one name.
