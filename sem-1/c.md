@@ -5,8 +5,8 @@
 ◯ Program : The program is a collection of instructions.
 
 ◯ Compiler : It translates code into machine language (binary).  
-&nbsp;&nbsp;&nbsp;&nbsp;✓ advantages - Faster execution (code is already in machine code).  
-&nbsp;&nbsp;&nbsp;&nbsp;✓ disadvantages - Even one error stops compilation.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ advantages - Faster execution (code is already in machine code).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ disadvantages - Even one error stops compilation.
 
 
 
