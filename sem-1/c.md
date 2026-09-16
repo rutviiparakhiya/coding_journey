@@ -1,15 +1,14 @@
-C(mid-level-language)
+													C (mid-level-language)
 
-#_What is software?
-Software is a collection of programs.
+◯ Software : Software is a collection of programs.
 
-#_What is a program?
-The program is a collection of instructions.
+◯ Program : The program is a collection of instructions.
 
-#_Work of compiler?
-Translates code into machine language (binary).
- 	!*Advantages: Faster execution (code is already in machine code).
- 	!*Disadvantages: Even one error stops compilation.
+◯ Compiler : It translates code into machine language (binary).
+	✓ advantages - Faster execution (code is already in machine code).
+	✓ disadvantages - Even one error stops compilation.
+
+
 
 #_Work of interpreter?
 Translates code line by line during execution.
