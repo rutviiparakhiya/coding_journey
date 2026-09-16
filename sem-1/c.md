@@ -1,11 +1,11 @@
-													C (mid-level-language)
+															C (mid-level-language)
 
 ◯ Software : Software is a collection of programs.
 
 ◯ Program : The program is a collection of instructions.
 
-◯ Compiler : It translates code into machine language (binary).
-	✓ advantages - Faster execution (code is already in machine code).
+◯ Compiler : It translates code into machine language (binary).  
+	✓ advantages - Faster execution (code is already in machine code).  
 	✓ disadvantages - Even one error stops compilation.
 
 
