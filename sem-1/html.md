@@ -160,11 +160,11 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download - it Makes the browser download the file instead of opening it.  
 
 ◯ link colours :-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By default, browsers style links with colors: blue for unvisited, purple for visited, and red for active. These can be customized using CSS by targeting the a tag and its pseudo-classes:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:link – Unvisited link.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:visited – Visited link.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:hover – Mouse over link.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:active – Link being clicked.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By default, browsers style links with colors: blue for unvisited, purple for visited, and red for active. These can be customized using CSS by &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; targeting the a tag and its pseudo-classes:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:link – Unvisited link.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:visited – Visited link.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:hover – Mouse over link.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:active – Link being clicked.  
 
 ◯ heading and paragraph tags :-    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;heading tags : h1 to h6, p  
