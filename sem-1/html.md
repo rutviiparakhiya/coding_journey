@@ -152,10 +152,10 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a - it is use to create a link  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;href - it Specifies where the link will take you.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;target - it Specifies where the link will open, such as in the same tab or a new tab.  
-        _self : Opens the link in the same tab/window   
-        _blank : Opens the link in a new tab or window  
-        _parent : Opens the link in the parent frame  
-        _top :  Opens the link in the full body of the window  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_self : Opens the link in the same tab/window   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_blank : Opens the link in a new tab or window  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_parent : Opens the link in the parent frame  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_top :  Opens the link in the full body of the window  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title - it Provides additional information about the link, shown as a tooltip on hover.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download - it Makes the browser download the file instead of opening it.  
 
