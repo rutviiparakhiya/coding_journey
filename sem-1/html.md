@@ -53,12 +53,12 @@ do not start on a new line and take only the space they need. They are used for 
 4. Browser & HTTP Directives (they are specific instructions sent in HTTP headers that tell browsers and servers how to handle cached content, security policies, and data transmission)  
 
 ◯ quoatation and citation elements :-  
-blockquote - is used for long quotes from another source  
-q - it is used for a short quote, usually with quotation marks around it  
-abbr - it is used for short forms and the title attribute shows the full meaning when you hover over it.  
-address - it is used to show contact information, such as an email, phone number, or address  
-cite - is used for the title of a creative work, such as a book, movie, article, or course, usually shown in italic.  
-bdo - it changes the direction of text, such as making text go left-to-right or right-to-left.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blockquote - is used for long quotes from another source  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q - it is used for a short quote, usually with quotation marks around it  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;abbr - it is used for short forms and the title attribute shows the full meaning when you hover over it.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address - it is used to show contact information, such as an email, phone number, or address  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cite - is used for the title of a creative work, such as a book, movie, article, or course, usually shown in italic.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bdo - it changes the direction of text, such as making text go left-to-right or right-to-left.   
 
 ◯ html list attributes :-  
 ul - Defines an unordered list, typically displayed with bullet points.  
