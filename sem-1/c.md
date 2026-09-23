@@ -1,25 +1,23 @@
 															C (mid-level-language)
 
-◯ Software : Software is a collection of programs.
+◯ Software : Software is a collection of programs.  
 
-◯ Program : The program is a collection of instructions.
+◯ Program : The program is a collection of instructions.  
 
 ◯ Compiler : It translates code into machine language (binary).  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ advantages - Faster execution (code is already in machine code).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ disadvantages - Even one error stops compilation.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ disadvantages - Even one error stops compilation.  
+
+◯ interpreter : Translates code line by line during execution.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ Advantages: No need to compile the whole code.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ Disadvantages: Needs the interpreter installed to run.  
+
+◯ Identifiers : Identifiers are used to identify the variables, function, or other program elements.     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. ⇾ int count; — Here, count is the identifier.
+
+◯ Keywords : Keywords are reserved words in C that have special meaning to the compiler.
 
 
-
-#_Work of interpreter?
-Translates code line by line during execution.
- 	!*Advantages: No need to compile the whole code.
- 	!*Disadvantages: Needs the interpreter installed to run.
-
-#_What are identifiers?
-Identifiers are used to identify the variables, function, or other program elements.
- 	e.g. = int count;  -> Here, count is the identifier.
-
-#_Keywords: Keywords are reserved words in C that have special meaning to the compiler.(32)
 
 			auto    |double  |int     |struct  
 			--------+--------+--------+--------
@@ -37,10 +35,8 @@ Identifiers are used to identify the variables, function, or other program eleme
 			--------+--------+--------+--------
 			do      |it      |static  |while   
 			
-#_Data Types:
- Data types define the type of data where a variable can store.
-
-		1. Primitive: it stores simple value and its value stored directly in memory.
+◯ Data Types : Data types define the type of data where a variable can store.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Primitive: it stores simple value and its value stored directly in memory.
  	   		e.g. = int, char, float, double, bool, short, int, long, long long, long double, void
  				(i)   singed  - it can store both positive and negative values.
  				(ii) unsinged - it can store only zero and positive.
