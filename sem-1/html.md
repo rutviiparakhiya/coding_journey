@@ -97,8 +97,7 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;label - is used to give a name or description to a form input, making it easier for users to understand what to enter.    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select - it is used to create a drop-down list where the user can choose an option.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;textarea - it is used to create a multi-line text box where users can enter longer text.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button - 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fieldset - it is used to group related form elements together, such as fields for personal information.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button - fieldset - it is used to group related form elements together, such as fields for personal information.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;legend - it is used to add a title or caption to a fieldset.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;datalist - it provides a list of pre-defined options that the user can choose from when typing in an input.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output - it is used to show the result of a calculation or user action.  
@@ -122,7 +121,8 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background colour -   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font family -    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font size -   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text align - left, right, center(Text is aligned in the middle), justify(Text is aligned evenly on both the left and right sides) padding - it adds space inside an element, between the content and the border.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text align - left, right, center(Text is aligned in the middle), justify(Text is aligned evenly on both the left and right sides)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding - it adds space inside an element, between the content and the border.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin - it adds space outside an element’s borders   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border -   
 
