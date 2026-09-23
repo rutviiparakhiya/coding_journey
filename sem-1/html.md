@@ -3,7 +3,7 @@ HTML (hyper text markup laungage)
 
 ◯ diffrence between element and attribute :-   
 Element - An element is a complete HTML part that contains a tag and content.  
-e.g. - p Hello /p 
+e.g. - p Hello /p    
 Attribute: An attribute gives extra information about an HTML element.  
 e.g. - p class="text" Hello /p → class="text" is an attribute.  
 
