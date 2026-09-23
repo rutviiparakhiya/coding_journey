@@ -84,9 +84,9 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width - it is use to set image's width   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height - it is use to set image's height  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;loading - it is used to imporove page load perfomane by maning image load behaviour  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lazy : it Delays loading the image until it is near the viewport    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eager - Loads the image immediately, even if it is far down the page. This is the default behavior when loading is not specified.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;auto - The browser decides when to load the image based on the situation. It can load it now or later.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lazy - it Delays loading the image until it is near the viewport    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eager - Loads the image immediately, even if it is far down the page. This is the default behavior when loading is not specified.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;auto - The browser decides when to load the image based on the situation. It can load it now or later.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title - it provides a tooltip that appears when the user hovers over the image.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;usemap - it is used to link an image to a map so that different parts of the image can be clicked.    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;map - It makes different parts of an image clickable, and each part can open a different link.  
