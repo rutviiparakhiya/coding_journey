@@ -122,8 +122,7 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background colour -   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font family -    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font size -   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text align - left, right, center(Text is aligned in the middle), justify(Text is aligned evenly on both the left and right sides) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding - it adds space inside an element, between the content and the border.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text align - left, right, center(Text is aligned in the middle), justify(Text is aligned evenly on both the left and right sides) padding - it adds space inside an element, between the content and the border.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin - it adds space outside an element’s borders   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border -   
 
