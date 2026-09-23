@@ -5,35 +5,35 @@ HTML (hyper text markup laungage)
 Element - An element is a complete HTML part that contains a tag and content.  
 e.g. - p Hello /p    
 Attribute: An attribute gives extra information about an HTML element.  
-e.g. - p class="text" Hello /p → class="text" is an attribute.  
+e.g. - p class="text" Hello /p     → class="text" is an attribute.  
 
 ◯ sementic elements :-  
 article - it is used for independent content that can stand on its own, such as a blog post, news article.  
 aside - it is used for extra content related to the main content, such as a sidebar, quote, or advertisement.  
 details - it is used to show extra information that the user can click to open or hide, such as FAQs or expandable sections.  
 figcaption - is used to add a caption or description to a figure, such as an image or diagram.  
-figure - it is used for self-contained content, such as an image, diagram, or code, often with a <figcaption> for its caption.  
+figure - it is used for self-contained content, such as an image, diagram, or code, often with a figcaption for its caption.  
 footer - it is used for the bottom part of a page or section, usually containing copyright, contact information, or links.  
 header - it is used for the top or introductory part of a page or section, usually containing headings, logos, or navigation.  
-main - it is used for the main content of a webpage, excluding headers, footers, and sidebars. There should be only one <main> element per page.  
-mark - it is used to highlighted the text  
+main - it is used for the main content of a webpage, excluding headers, footers, and sidebars. There should be only one main element per page.  
+mark - it is used to highlighted the text.  
 nav - it is used to contain important navigation links, such as a website menu.  
 section - it is used to group related content into a section, usually with a heading.  
-summary - it is used to create a visible heading that users can click to open or close the <details> content.  
+summary - it is used to create a visible heading that users can click to open or close the details content.  
 time - it is used to show a specific date or time, and the datetime attribute gives the date or time in a format that computers can understand.  
 
 ◯ block level element :-
 it start on a new line and usually take the full available width They are used for things like headings, paragraphs, and sections.
-div, p, h1-h, ul, ol, form, section, article  
+div, p, h1-h6, ul, ol, form, section, article  
 
 ◯ inline element :-
 do not start on a new line and take only the space they need. They are used for small parts of content, like words or links.
-<span>, <a>, <strong>, <em>, <img>, <b>, <i>, <q>, <abbr>.  
+e.g. - span, a, strong, em, img, b, i, q, abbr.  
 
 ◯ class and id attributes :-
 class - it gives an element a name, so you can style or control multiple elements together.   
         (it can be used multiple times, it is used to styling the elements)  
-id - gives an element a unique name so you can style or control that specific element  
+id - gives an element a unique name so you can style or control that specific element    
      (it can be mut unique, it is used to linking a specific elements)  
 
 ◯ iframe :-  
@@ -48,7 +48,7 @@ sandbox → Adds security restrictions to the iframe.
 title → Gives a description of the iframe for accessibility.    
 
 ◯ meta tags :-  
-are always placed inside the <head> section of your HTML document and primarily handle four critical tasks :  
+are always placed inside the head section of your HTML document and primarily handle four critical tasks :  
 1. Search Engine Optimization (SEO - SEO helps search engines understand your website and helps users find your pages easily) & Indexing (indexing is the process where a search engine stores and organizes the content it finds so it can be shown in those results)  
 2. Responsive Web Design (Viewport Control - it instructs mobile browsers how to control a webpage's dimensions and scaling behavior)   
 3. Character Encoding (it is a system that pairs human-readable letters, numbers, and symbols with unique numerical values so a computer can store, process, and display text)  
@@ -65,7 +65,7 @@ bdo - it changes the direction of text, such as making text go left-to-right or 
 ◯ html list attributes :-  
 ul - Defines an unordered list, typically displayed with bullet points.  
 ol - Defines an ordered list, typically displayed with numbers or letters.  
-li - Defines a list item within <ul> or <ol>.  
+li - Defines a list item within ul or ol.  
 dl - Defines a description list for terms and their descriptions.  
 dt - Defines a term in a description list.  
 dd - Defines a description for a term in a description list.  
@@ -101,11 +101,11 @@ select - it is used to create a drop-down list where the user can choose an opti
 textarea - it is used to create a multi-line text box where users can enter longer text.  
 button - 
 fieldset - it is used to group related form elements together, such as fields for personal information.  
-legend - it is used to add a title or caption to a <fieldset>.  
-datalist - it provides a list of pre-defined options that the user can choose from when typing in an <input>.  
+legend - it is used to add a title or caption to a fieldset.  
+datalist - it provides a list of pre-defined options that the user can choose from when typing in an input.  
 output - it is used to show the result of a calculation or user action.  
-option - it is used to define an option that the user can choose in a <select> or <datalist>.  
-optgroup - it is used to group related options together in a <select> drop-down list.  
+option - it is used to define an option that the user can choose in a select or datalist.  
+optgroup - it is used to group related options together in a select drop-down list.  
 
 ◯ formating elements :-  
 b - bold   
@@ -130,7 +130,7 @@ margin - it adds space outside an element’s borders
 border -   
 
 ◯ audio attributes :-  
-src: Specifies the path or URL to the video file (used when no <source> elements are provided).   
+src: Specifies the path or URL to the video file (used when no source elements are provided).   
 controls: Displays browser-native video controls (play, pause, volume, etc.).   
 autoplay: Plays the video automatically on page load (often requires muted).   
 loop: Repeats the video indefinitely.   
@@ -163,7 +163,7 @@ title - it Provides additional information about the link, shown as a tooltip on
 download - it Makes the browser download the file instead of opening it.  
 
 ◯ link colours :-  
-By default, browsers style links with colors: blue for unvisited, purple for visited, and red for active. These can be customized using CSS by targeting the <a> tag and its pseudo-classes:  
+By default, browsers style links with colors: blue for unvisited, purple for visited, and red for active. These can be customized using CSS by targeting the a tag and its pseudo-classes:  
 :link – Unvisited link.  
 :visited – Visited link.  
 :hover – Mouse over link.  
