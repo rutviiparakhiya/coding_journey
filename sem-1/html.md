@@ -20,7 +20,7 @@ HTML (hyper text markup laungage)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nav - it is used to contain important navigation links, such as a website menu.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;section - it is used to group related content into a section, usually with a heading.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;summary - it is used to create a visible heading that users can click to open or close the details content.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time - it is used to show a specific date or time, and the datetime attribute gives the date or time in a format that computers can &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      understand.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time - it is used to show a specific date or time, and the datetime attribute gives the date or time in a format that computers can understand.  
 
 ◯ block level element :-
 it start on a new line and usually take the full available width They are used for things like headings, paragraphs, and sections.
