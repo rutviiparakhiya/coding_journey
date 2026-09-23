@@ -143,7 +143,7 @@ do not start on a new line and take only the space they need. They are used for 
 
 ◯ computer code elements :-  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code - it is used to show small pieces of code, such as function names, variables, or commands, usually in monospace font.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pre - it shows preformatted text and keeps the same spaces, tabs, and line breaks as written in the HTML. It is commonly used for multi-line &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; code.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pre - it shows preformatted text and keeps the same spaces, tabs, and line breaks as written in the HTML. It is commonly used for multi-line &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; code.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kbd - it is used to show what the user should type or press, such as keyboard keys, shortcuts, or commands.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;samp - it is used to show output from a computer program or system, such as messages, results, or error messages.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var - it is used to show a variable or placeholder, such as a variable in code or a math formula.  
