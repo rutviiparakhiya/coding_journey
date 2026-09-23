@@ -2,10 +2,10 @@ HTML (hyper text markup laungage)
 -it is a laungauge for creating webpages  
 
 ◯ diffrence between element and attribute :-   
-Element - An element is a complete HTML part that contains a tag and content.  
-e.g. - p Hello /p    
-Attribute: An attribute gives extra information about an HTML element.  
-e.g. - p class="text" Hello /p     → class="text" is an attribute.  
+&nbsp;&nbsp;&nbsp;&nbsp;Element - An element is a complete HTML part that contains a tag and content.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.g. - p Hello /p    
+&nbsp;&nbsp;&nbsp;&nbsp;Attribute: An attribute gives extra information about an HTML element.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.g. - p class="text" Hello /p     → class="text" is an attribute.  
 
 ◯ sementic elements :-  
 article - it is used for independent content that can stand on its own, such as a blog post, news article.  
@@ -90,7 +90,7 @@ loading - it is used to imporove page load perfomane by maning image load behavi
     eager - Loads the image immediately, even if it is far down the page. This is the default behavior when loading is not specified.  
     auto - The browser decides when to load the image based on the situation. It can load it now or later.  
 title - it provides a tooltip that appears when the user hovers over the image.  
-usemap - it is used to link an image to a <map> so that different parts of the image can be clicked.    
+usemap - it is used to link an image to a map so that different parts of the image can be clicked.    
 map - It makes different parts of an image clickable, and each part can open a different link.  
 srcset - it gives the browser different image options, so it can choose the best image for the screen.  
 
