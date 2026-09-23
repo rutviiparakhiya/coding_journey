@@ -142,7 +142,7 @@ srcset - it gives the browser different image options, so it can choose the best
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disablePictureInPicture: Disables the picture-in-picture option in browsers.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mediagroup: Groups media elements for synchronized playback (non-standard, rarely used).  
 
-◯ computer code elements :-
+◯ computer code elements :-  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code - it is used to show small pieces of code, such as function names, variables, or commands, usually in monospace font.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pre - it shows preformatted text and keeps the same spaces, tabs, and line breaks as written in the HTML. It is commonly used for &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multi-line code.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kbd - it is used to show what the user should type or press, such as keyboard keys, shortcuts, or commands.  
