@@ -29,9 +29,9 @@ it start on a new line and usually take the full available width They are used f
 do not start on a new line and take only the space they need. They are used for small parts of content, like words or links. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. - span, a, strong, em, img, b, i, q, abbr.  
 
 ◯ class and id attributes :-  
-class - it gives an element a name, so you can style or control multiple elements together.   
+&nbsp;&nbsp;&nbsp;&nbsp;class - it gives an element a name, so you can style or control multiple elements together.   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (it can be used multiple times, it is used to styling the elements)  
-id - gives an element a unique name so you can style or control that specific element    
+&nbsp;&nbsp;&nbsp;&nbsp;id - gives an element a unique name so you can style or control that specific element    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(it can be mut unique, it is used to linking a specific elements)  
 
 ◯ iframe :-  
