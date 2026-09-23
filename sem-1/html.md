@@ -15,12 +15,12 @@ HTML (hyper text markup laungage)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;figure - it is used for self-contained content, such as an image, diagram, or code, often with a figcaption for its caption.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;footer - it is used for the bottom part of a page or section, usually containing copyright, contact information, or links.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;header - it is used for the top or introductory part of a page or section, usually containing headings, logos, or navigation.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main - it is used for the main content of a webpage, excluding headers, footers, and sidebars. There should be only one main element per page.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main - it is used for the main content of a webpage, excluding headers, footers, and sidebars. There should be only one main element per &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; page.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mark - it is used to highlighted the text.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nav - it is used to contain important navigation links, such as a website menu.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;section - it is used to group related content into a section, usually with a heading.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;summary - it is used to create a visible heading that users can click to open or close the details content.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time - it is used to show a specific date or time, and the datetime attribute gives the date or time in a format that computers can understand.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time - it is used to show a specific date or time, and the datetime attribute gives the date or time in a format that computers can &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; understand.  
 
 ◯ block level element :-
 it start on a new line and usually take the full available width They are used for things like headings, paragraphs, and sections.
