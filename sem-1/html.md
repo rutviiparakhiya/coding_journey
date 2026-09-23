@@ -35,15 +35,15 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (it can be mut unique, it is used to linking a specific elements)  
 
 ◯ iframe :-  
-it is used to show content from another website inside your webpage, such as a webpage, video, or map.  
-src → Tells what content to show.  
-width → Sets the width of the iframe.  
-height → Sets the height of the iframe.  
-name → Gives the iframe a name so links or scripts can target it.  
-frameborder → Controls whether the iframe has a border.  
-allow → Gives permission for features like fullscreen or microphone.  
-sandbox → Adds security restrictions to the iframe.  
-title → Gives a description of the iframe for accessibility.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it is used to show content from another website inside your webpage, such as a webpage, video, or map.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src → Tells what content to show.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width → Sets the width of the iframe.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height → Sets the height of the iframe.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name → Gives the iframe a name so links or scripts can target it.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frameborder → Controls whether the iframe has a border.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;allow → Gives permission for features like fullscreen or microphone.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sandbox → Adds security restrictions to the iframe.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title → Gives a description of the iframe for accessibility.    
 
 ◯ meta tags :-  
 are always placed inside the head section of your HTML document and primarily handle four critical tasks :  
