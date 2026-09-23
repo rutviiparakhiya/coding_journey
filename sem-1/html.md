@@ -30,7 +30,7 @@ do not start on a new line and take only the space they need. They are used for 
 
 ◯ class and id attributes :-  
 class - it gives an element a name, so you can style or control multiple elements together.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (it can be used multiple times, it is used to styling the elements)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (it can be used multiple times, it is used to styling the elements)  
 id - gives an element a unique name so you can style or control that specific element    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(it can be mut unique, it is used to linking a specific elements)  
 
