@@ -46,7 +46,7 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title → Gives a description of the iframe for accessibility.    
 
 ◯ meta tags :-  
-are always placed inside the head section of your HTML document and primarily handle four critical tasks :  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;they are always placed inside the head section of your HTML document and primarily handle four critical tasks :  
 1. Search Engine Optimization (SEO - SEO helps search engines understand your website and helps users find your pages easily) & Indexing (indexing is the process where a search engine stores and organizes the content it finds so it can be shown in those results)  
 2. Responsive Web Design (Viewport Control - it instructs mobile browsers how to control a webpage's dimensions and scaling behavior)   
 3. Character Encoding (it is a system that pairs human-readable letters, numbers, and symbols with unique numerical values so a computer can store, process, and display text)  
