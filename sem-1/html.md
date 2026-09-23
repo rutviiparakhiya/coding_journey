@@ -79,18 +79,18 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tfoot - Groups footer content together, usually for contact details, copyright, or links.  
 
 ◯ image tags and attributes :-  
-src - it specifies the path of image file to be displayed   
-alt - it provides the alternative text for the image and it is used to screen displayed if the image fails to load  
-width - it is use to set image's width   
-height - it is use to set image's height  
-loading - it is used to imporove page load perfomane by maning image load behaviour  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src - it specifies the path of image file to be displayed   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alt - it provides the alternative text for the image and it is used to screen displayed if the image fails to load  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width - it is use to set image's width   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height - it is use to set image's height  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;loading - it is used to imporove page load perfomane by maning image load behaviour  
     lazy : it Delays loading the image until it is near the viewport    
     eager - Loads the image immediately, even if it is far down the page. This is the default behavior when loading is not specified.  
     auto - The browser decides when to load the image based on the situation. It can load it now or later.  
-title - it provides a tooltip that appears when the user hovers over the image.  
-usemap - it is used to link an image to a map so that different parts of the image can be clicked.    
-map - It makes different parts of an image clickable, and each part can open a different link.  
-srcset - it gives the browser different image options, so it can choose the best image for the screen.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title - it provides a tooltip that appears when the user hovers over the image.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;usemap - it is used to link an image to a map so that different parts of the image can be clicked.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;map - It makes different parts of an image clickable, and each part can open a different link.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;srcset - it gives the browser different image options, so it can choose the best image for the screen.  
 
 ◯ form elements :-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input - it is used to take input from the user, such as text, email, password, number, or date.  
