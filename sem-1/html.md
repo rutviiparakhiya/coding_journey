@@ -3,15 +3,15 @@ HTML (hyper text markup laungage)
 
 ◯ diffrence between element and attribute :-   
 Element - An element is a complete HTML part that contains a tag and content.  
-<!-- e.g. - <p>Hello</p>   -->
+e.g. - p Hello /p 
 Attribute: An attribute gives extra information about an HTML element.  
-<!-- e.g. - <p class="text">Hello</p> → class="text" is an attribute.   -->
-  
+e.g. - p class="text" Hello /p → class="text" is an attribute.  
+
 ◯ sementic elements :-  
 article - it is used for independent content that can stand on its own, such as a blog post, news article.  
 aside - it is used for extra content related to the main content, such as a sidebar, quote, or advertisement.  
 details - it is used to show extra information that the user can click to open or hide, such as FAQs or expandable sections.  
-<!-- figcaption - is used to add a caption or description to a <figure>, such as an image or diagram.   -->
+figcaption - is used to add a caption or description to a figure, such as an image or diagram.  
 figure - it is used for self-contained content, such as an image, diagram, or code, often with a <figcaption> for its caption.  
 footer - it is used for the bottom part of a page or section, usually containing copyright, contact information, or links.  
 header - it is used for the top or introductory part of a page or section, usually containing headings, logos, or navigation.  
