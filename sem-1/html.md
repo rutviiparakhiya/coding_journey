@@ -160,7 +160,7 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download - it Makes the browser download the file instead of opening it.  
 
 ◯ link colours :-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By default, browsers style links with colors: blue for unvisited, purple for visited, and red for active. These can be customized using CSS by &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; targeting the a tag and its pseudo-classes:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By default, browsers style links with colors: blue for unvisited, purple for visited, and red for active. These can be customized using CSS by &nbsp;&nbsp;&nbsp;&nbsp; targeting the a tag and its pseudo-classes:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:link – Unvisited link.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:visited – Visited link.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:hover – Mouse over link.  
