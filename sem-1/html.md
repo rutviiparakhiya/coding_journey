@@ -3,9 +3,9 @@ HTML (hyper text markup laungage)
 
 ◯ diffrence between element and attribute :-   
 Element - An element is a complete HTML part that contains a tag and content.  
-e.g. :- <p>Hello</p>  
+e.g. - <p>Hello</p>  
 Attribute: An attribute gives extra information about an HTML element.  
-e.g. :- <p class="text">Hello</p> → class="text" is an attribute.  
+e.g. - <p class="text">Hello</p> → class="text" is an attribute.  
   
 ◯ sementic elements :-  
 article - it is used for independent content that can stand on its own, such as a blog post, news article.  
@@ -24,7 +24,7 @@ time - it is used to show a specific date or time, and the datetime attribute gi
 
 ◯ block level element :-
 it start on a new line and usually take the full available width They are used for things like headings, paragraphs, and sections.
-<div>, <p>, <h1>-<h6>, <ul>, <ol>, <form>, <section>, <article>  
+div, p, h1-h, ul, ol, form, section, article  
 
 ◯ inline element :-
 do not start on a new line and take only the space they need. They are used for small parts of content, like words or links.
