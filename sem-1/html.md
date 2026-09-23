@@ -92,7 +92,7 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;map - It makes different parts of an image clickable, and each part can open a different link.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;srcset - it gives the browser different image options, so it can choose the best image for the screen.  
 
-◯ form elements :-
+◯ form elements :-  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input - it is used to take input from the user, such as text, email, password, number, or date.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;label - is used to give a name or description to a form input, making it easier for users to understand what to enter.    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select - it is used to create a drop-down list where the user can choose an option.  
