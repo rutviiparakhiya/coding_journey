@@ -2,10 +2,10 @@ HTML (hyper text markup laungage)
 -it is a laungauge for creating webpages  
 
 ◯ diffrence between element and attribute :-   
-&nbsp;&nbsp;&nbsp;&nbsp;Element - An element is a complete HTML part that contains a tag and content.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.g. - p Hello /p    
-&nbsp;&nbsp;&nbsp;&nbsp;Attribute: An attribute gives extra information about an HTML element.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.g. - p class="text" Hello /p     → class="text" is an attribute.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Element - An element is a complete HTML part that contains a tag and content.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.g. - p Hello /p    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attribute: An attribute gives extra information about an HTML element.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.g. - p class="text" Hello /p     → class="text" is an attribute.  
 
 ◯ sementic elements :-  
 article - it is used for independent content that can stand on its own, such as a blog post, news article.  
