@@ -126,28 +126,6 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin - it adds space outside an element’s borders   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border -   
 
-◯ audio attributes :-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src: Specifies the path or URL to the video file (used when no source elements are provided).   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;controls: Displays browser-native video controls (play, pause, volume, etc.).   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;autoplay: Plays the video automatically on page load (often requires muted).   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;loop: Repeats the video indefinitely.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muted: Mutes the video by default.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;poster: Specifies an image to display before playback starts.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: Sets the video width in pixels or percentage.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: Sets the video height in pixels or percentage.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preload: Suggests how the browser should load the video (none, metadata, auto).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;crossorigin: Specifies CORS settings for fetching the video (anonymous, use-credentials).   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;playsinline: Allows the video to play inline on mobile devices (avoids fullscreen).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disablePictureInPicture: Disables the picture-in-picture option in browsers.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mediagroup: Groups media elements for synchronized playback (non-standard, rarely used).  
-
-◯ computer code elements :-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code - it is used to show small pieces of code, such as function names, variables, or commands, usually in monospace font.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pre - it shows preformatted text and keeps the same spaces, tabs, and line breaks as written in the HTML. It is commonly used for multi-line &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; code.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kbd - it is used to show what the user should type or press, such as keyboard keys, shortcuts, or commands.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;samp - it is used to show output from a computer program or system, such as messages, results, or error messages.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var - it is used to show a variable or placeholder, such as a variable in code or a math formula.  
-
 ◯ html links :-  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a - it is use to create a link  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;href - it Specifies where the link will take you.  
@@ -164,7 +142,29 @@ do not start on a new line and take only the space they need. They are used for 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:link – Unvisited link.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:visited – Visited link.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:hover – Mouse over link.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:active – Link being clicked.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:active – Link being clicked. 
+
+◯ computer code elements :-  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code - it is used to show small pieces of code, such as function names, variables, or commands, usually in monospace font.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pre - it shows preformatted text and keeps the same spaces, tabs, and line breaks as written in the HTML. It is commonly used for multi-line &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; code.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kbd - it is used to show what the user should type or press, such as keyboard keys, shortcuts, or commands.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;samp - it is used to show output from a computer program or system, such as messages, results, or error messages.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var - it is used to show a variable or placeholder, such as a variable in code or a math formula.
+
+◯ audio attributes :-  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src: Specifies the path or URL to the video file (used when no source elements are provided).   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;controls: Displays browser-native video controls (play, pause, volume, etc.).   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;autoplay: Plays the video automatically on page load (often requires muted).   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;loop: Repeats the video indefinitely.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muted: Mutes the video by default.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;poster: Specifies an image to display before playback starts.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: Sets the video width in pixels or percentage.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: Sets the video height in pixels or percentage.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preload: Suggests how the browser should load the video (none, metadata, auto).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;crossorigin: Specifies CORS settings for fetching the video (anonymous, use-credentials).   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;playsinline: Allows the video to play inline on mobile devices (avoids fullscreen).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disablePictureInPicture: Disables the picture-in-picture option in browsers.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mediagroup: Groups media elements for synchronized playback (non-standard, rarely used). 
 
 ◯ heading and paragraph tags :-    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;heading tags : h1 to h6, p  
