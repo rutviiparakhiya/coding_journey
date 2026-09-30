@@ -1,9 +1,9 @@
-◯ Type Script (TypeScript = JavaScript + Types)  
+◯ Type Script (TypeScript = JavaScript + Types)   
 
 It is an extended version of JavaScript that adds types, making the code easier and safer to write.  
 TypeScript adds types to JavaScript and is converted into JavaScript before running.  
 
-◯ diffrence between js and ts :-  
+◯ diffrence between js and ts :-   
 
 | js                                                          | ts                        |
 | :-----------------------------------------------------------: | :-------------------------: |
@@ -15,10 +15,10 @@ TypeScript adds types to JavaScript and is converted into JavaScript before runn
 ◯ static typing :-  
 Static typing means types are checked before the program runs.  
 
-◯ dynamic typing :-  
-Dynamic typing means variable types are decided at runtime and can change later.  
+◯ dynamic typing :-    
+Dynamic typing means variable types are decided at runtime and can change later.   
 
-◯ diffrence between complie time and run time :-  
+◯ diffrence between complie time and run time :-    
 
 | compile time                       | run time                         |
 | :----------------------------------: | :--------------------------------: |
@@ -27,26 +27,27 @@ Dynamic typing means variable types are decided at runtime and can change later.
 | e.g. - typescript type error       | e.g. - undefined error           |
 
 
-◯ diffrence between parameter and return type :-
+◯ diffrence between parameter and return type :-  
 
-Parameter                     |Return Type
-----------------------------------------------------------------
-Input given to a function     |Output given by a function
-Used inside the function      |Tells what the function returns
-Example: name: string         |Example: : string
+| parameter                 | return type                     |     
+| :-------------------------: | :-------------------------------: | 
+| input given to a function | output given by a function      |     
+| used inside the function  | tells what the function returns |     
+| e.g. - name : string      | e.g. - string                   |     
 
 ◯ type aliases :-
-Type Alias is a way to give a custom name to a type so you can reuse it.
-A type alias is created using the type keyword.
+Type Alias is a way to give a custom name to a type so you can reuse it.  
+A type alias is created using the type keyword.  
 
-◯ interface :-
-An interface defines the structure and properties that an object should have.
+◯ interface :-  
+An interface defines the structure and properties that an object should have.  
 
-◯ diffrence type and interface :-
+◯ diffrence type and interface :-  
 
-type                                           |interface
----------------------------------------------------------------------------------
-Uses type keyword                              |Uses interface keyword
-Can define objects, unions, primitives, etc.   |Mainly used for object structures
-Cannot be reopened/merged                      |Can be extended and merged
+| type                                            | interface                         | 
+| :-----------------------------------------------: | :---------------------------------: | 
+| it uses type keyword                            | it uses interface keyword         |     
+| it can define objects, unions, primitives, etc. | mainly used for object structures |      
+| it cannot be reopened or merged                 | it can be extended and merged     |      
+
 
