@@ -3,7 +3,7 @@
 It is an extended version of JavaScript that adds types, making the code easier and safer to write.  
 TypeScript adds types to JavaScript and is converted into JavaScript before running.  
 
-◯ diffrence between js and ts :-   
+◯ Diffrence between js and ts :-   
 
 | js                                                          | ts                        |
 | :-----------------------------------------------------------: | :-------------------------: |
@@ -12,13 +12,13 @@ TypeScript adds types to JavaScript and is converted into JavaScript before runn
 | Runs directly in browser/Node.js into js first              | Compiled/transpiled       |
 | simpler for small projects                                  | better for large projects |
 
-◯ static typing :-  
+◯ Static typing :-  
 Static typing means types are checked before the program runs.  
 
-◯ dynamic typing :-    
+◯ Dynamic typing :-    
 Dynamic typing means variable types are decided at runtime and can change later.   
 
-◯ diffrence between complie time and run time :-    
+◯ Diffrence between complie time and run time :-    
 
 | compile time                       | run time                         |
 | :----------------------------------: | :--------------------------------: |
@@ -27,7 +27,7 @@ Dynamic typing means variable types are decided at runtime and can change later.
 | e.g. - typescript type error       | e.g. - undefined error           |
 
 
-◯ diffrence between parameter and return type :-  
+◯ Diffrence between parameter and return type :-  
 
 | parameter                 | return type                     |     
 | :-------------------------: | :-------------------------------: | 
@@ -35,14 +35,14 @@ Dynamic typing means variable types are decided at runtime and can change later.
 | used inside the function  | tells what the function returns |     
 | e.g. - name : string      | e.g. - string                   |     
 
-◯ type aliases :-
+◯ Type aliases :-
 Type Alias is a way to give a custom name to a type so you can reuse it.  
 A type alias is created using the type keyword.  
 
-◯ interface :-  
+◯ Interface :-  
 An interface defines the structure and properties that an object should have.  
 
-◯ diffrence type and interface :-  
+◯ Diffrence between type and interface :-  
 
 | type                                            | interface                         | 
 | :-----------------------------------------------: | :---------------------------------: | 
@@ -50,4 +50,18 @@ An interface defines the structure and properties that an object should have.
 | it can define objects, unions, primitives, etc. | mainly used for object structures |      
 | it cannot be reopened or merged                 | it can be extended and merged     |      
 
+◯ Type composition :-  
+&nbsp;&nbsp;&nbsp; Type composition means combining multiple types to create one new type.
 
+&nbsp;&nbsp;&nbsp; 1. Union types : Union type allows a value to have one of multiple types using the | operator.  
+
+&nbsp;&nbsp;&nbsp; 2. Intersection type : Intersection type combines all properties of multiple types using the & operator.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (i) object intersection - it combines the properties of two or more object types using &.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (ii) interface intersection - it combines two or more interfaces using &.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (iii) intersection conflicts - it happens when two types have the same property with different types.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (iv) combining types - it means joining two or more types using & or |.
+
+&nbsp;&nbsp;&nbsp; 3. Literal types : it allows a variable to have a specific fixed value.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (i) string literals - it means a type that allows only specific string values.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (ii) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
