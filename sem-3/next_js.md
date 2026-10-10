@@ -3,6 +3,8 @@ Next.js is a React-based full-stack framework for building modern web applicatio
 
 it is a framework built on top of React.js that enables developers to build server-side rendered and statically generated web applications. It provides features like automatic code splitting, optimized performance, and easy routing.
 
+◯ Diffrence between library and framework :-  
+
 | library | framework |
 | :---: | :---: |
 | it provides specific functionality that we can use when needed. | provides a complete structure for building an application. |
@@ -10,6 +12,9 @@ it is a framework built on top of React.js that enables developers to build serv
 | We choose when and where to use it. | We follow its rules and conventions. |
 | Example: React | Example: Next.js |
 
+◯ Why we use next js?  
+Next.js is a React-based framework used to build fast, SEO-friendly, and full-stack web applications.  
+it provides built in features such as file based routing, multiple rendering strategies, server side capabilites, data fetching, image optimization, and TypeScript support and These features reduce the need to configure everything manually and make application development easier and more efficient.  
 
 SEO - 
 

@@ -35,6 +35,33 @@ Dynamic typing means variable types are decided at runtime and can change later.
 | used inside the function  | tells what the function returns |     
 | e.g. - name : string      | e.g. - string                   |     
 
+◯ Basic types of typescript :-
+
+1. string - it represents textual values
+2. number - represents numeric values
+3. boolean - it represents true or false
+4. null - it represents the intentional absence of a value
+5. undefined - it represents an undefined value
+6. bigint - it represents integers larger than the range safely represented by the number type
+7. symbol - it represents unique values created using Symbol
+| any                       | unknown                         |
+| :-------------------------: | :-------------------------------: |
+| we can store the value by string, number, boolean, array | we can store the value by string, number, boolean, array |
+| we can use it without checking it | we must check the type before we use |
+| it has less saftey        |                                 |
+10. never - never is used for a function that does not return any value normally because it never completes successfully
+11. void - void is used for a function that does not return any useful value but can complete its task successfully
+12. object - it represents non-primitive values, such as objects, arrays, and functions
+13. array - it specifies the type of elements that an array can contain
+| array                     | tupple                          |
+| :-------------------------: | :-------------------------------: |
+| Elements are generally of the same type | Each position can have a specific type |
+| The number of elements can change | The positions and types are defined by its structure |
+| Example: number[]         |                                 |
+
+
+
+
 ◯ Type aliases :-
 Type Alias is a way to give a custom name to a type so you can reuse it.  
 A type alias is created using the type keyword.  
