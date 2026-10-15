@@ -19,7 +19,6 @@ Static typing means types are checked before the program runs.
 Dynamic typing means variable types are decided at runtime and can change later.   
 
 ◯ Diffrence between complie time and run time :-    
-
 | compile time                       | run time                         |
 | :----------------------------------: | :--------------------------------: |
 | before the program runs            | while the program is running     |
@@ -28,7 +27,6 @@ Dynamic typing means variable types are decided at runtime and can change later.
 
 
 ◯ Diffrence between parameter and return type :-  
-
 | parameter                 | return type                     |     
 | :-------------------------: | :-------------------------------: | 
 | input given to a function | output given by a function      |     
@@ -59,8 +57,29 @@ Dynamic typing means variable types are decided at runtime and can change later.
 | The number of elements can change | The positions and types are defined by its structure |
 | Example: number[]         |                                 |
 
+<!-- 2 -->
+◯ Function :-
+parameter types - It specifies what input should be given to a function.
+return types - It defines what type of value a function will return.
+Optional Parameter (?) - Providing the input is optional.
+Default Parameter (=) - If no input is provided, the default value is used.
+Callback Function - Passing a function as an argument to another function.
+Rest Parameter (...) - Collecting multiple arguments into a single parameter.
+Function Expression - Storing a function in a variable.
+Arrow Function (=>) - Short syntax for writing a function.
 
+◯ Object Types :-
+Object Type - Defines an object's properties and their data types.
+Required Property - The property is required.
+Optional Property (?) - The property is optional.
+Readonly Property - The property cannot be reassigned.
+Nested Object - An object inside another object.
+Index Signature - Defines the type for dynamic keys.
+Method - A function defined within an object.
+Function Property - A function is stored as an object property.
+this keyword - Refers to the current instance of an object.
 
+<!-- 3 -->
 
 ◯ Type aliases :-
 Type Alias is a way to give a custom name to a type so you can reuse it.  
@@ -70,25 +89,89 @@ A type alias is created using the type keyword.
 An interface defines the structure and properties that an object should have.  
 
 ◯ Diffrence between type and interface :-  
-
 | type                                            | interface                         | 
 | :-----------------------------------------------: | :---------------------------------: | 
 | it uses type keyword                            | it uses interface keyword         |     
 | it can define objects, unions, primitives, etc. | mainly used for object structures |      
 | it cannot be reopened or merged                 | it can be extended and merged     |      
 
+<!-- 4 -->
+
 ◯ Type composition :-  
 &nbsp;&nbsp;&nbsp; Type composition means combining multiple types to create one new type.
 
-&nbsp;&nbsp;&nbsp; 1. Union types : Union type allows a value to have one of multiple types using the | operator.  
+1. Union types - 
+   A Union Type in TypeScript allows a variable to accept a value of any one of two or more types using the `|` operator.
+2. intersection types - 
+3. litral types - 
+4. narrowing types - 
 
-&nbsp;&nbsp;&nbsp; 2. Intersection type : Intersection type combines all properties of multiple types using the & operator.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (i) object intersection - it combines the properties of two or more object types using &.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (ii) interface intersection - it combines two or more interfaces using &.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (iii) intersection conflicts - it happens when two types have the same property with different types.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (iv) combining types - it means joining two or more types using & or |.
+<!-- 5 -->
 
-&nbsp;&nbsp;&nbsp; 3. Literal types : it allows a variable to have a specific fixed value.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (i) string literals - it means a type that allows only specific string values.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (ii) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+◯ Advance types :-
+1. enums - 
+2. generics - 
+3. Type Assertions - 
+4. keyof & typeof - 
+5. Mapped Types - 
+   
+<!-- 6 -->
+◯ Utility types :-
+1. partial - 
+2. required - 
+3. readonly - 
+4. pick - 
+5. omit - 
+6. record - 
+7. exclude - 
+8. extract - 
+9. nonnullable - 
+10. uppercase - 
+11. lower case - 
+12. capitalize - 
+13. uncapitaliize - 
+
+<!-- 7 -->
+classes = Properties + Constructor + Methods + access modifier
+
+◯ properties :-
+
+◯ construcutor :-
+
+◯ methods :- 
+
+◯ access modifier :-
+1. public - 
+2. private - 
+3. protected - 
+
+oops :-
+
+1. inheritance - 
+(i) extend - 
+(ii) super - 
+
+2. method overriding - 
+
+3. abstaction - 
+
+
+<!-- 8 -->
+◯ async :-
+1. Promise Types - 
+2. Generic Promises - 
+3. Async Functions - 
+4. Async Return Types - 
+5. Promise<T> - 
+6. Promise Arrays - 
+7. Async Error Handling - 
+   
+◯ error handling :-
+1. error - 
+2. unknown - 
+3. custom errors - 
+4. Error Type Guards - 
+5. Result Types - 
+6. Error Unions - 
+   
+<!-- 9    -->

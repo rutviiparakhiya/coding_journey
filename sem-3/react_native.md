@@ -45,3 +45,5 @@ touchable opacity :-
 TouchableOpacity makes a component clickable and makes it slightly transparent when pressed.
 
 #camera :-
+
+
