@@ -17,10 +17,10 @@
 ◯ Dynamic typing :-    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dynamic typing means variable types are decided at runtime and can change later.   
 
-◯ Diffrence between complie time and run time :-    
+◯ Diffrence between compile time and run time :-    
 | compile time                       | run time                         |
 | :----------------------------------: | :--------------------------------: |
-| before the program runs            | while the program is running     |
+| checks an error before the program runs | while the program is running     |
 | errors are found beforee execution | error happing during executation |
 | e.g. - typescript type error       | e.g. - undefined error           |
 
