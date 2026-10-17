@@ -46,6 +46,7 @@
 | we can store the value by string, number, boolean, array | we can store the value by string, number, boolean, array |
 | we can use it without checking it | we must check the type before we use |
 | it has less saftey        |                                 |
+
 1.  never - never is used for a function that does not return any value normally because it never completes successfully  
 2.  void - void is used for a function that does not return any useful value but can complete its task successfully  
 3.  object - it represents non-primitive values, such as objects, arrays, and functions  
