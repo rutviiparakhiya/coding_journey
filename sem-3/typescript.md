@@ -33,28 +33,28 @@
 
 ◯ Basic types of typescript :-
 
-&nbsp;&nbsp;&nbsp;1. string - it represents textual values  
-&nbsp;&nbsp;&nbsp;2. number - represents numeric values  
-&nbsp;&nbsp;&nbsp;3. boolean - it represents true or false  
-&nbsp;&nbsp;&nbsp;4. null - it represents the intentional absence of a value  
-&nbsp;&nbsp;&nbsp;5. undefined - it represents an undefined value  
-&nbsp;&nbsp;&nbsp;6. bigint - it represents integers larger than the range safely represented by the number type  
-&nbsp;&nbsp;&nbsp;7. symbol - it represents unique values created using Symbol  
+1. string - it represents textual values  
+2. number - represents numeric values  
+3. boolean - it represents true or false  
+4. null - it represents the intentional absence of a value  
+5. undefined - it represents an undefined value  
+6. bigint - it represents integers larger than the range safely represented by the number type  
+7. symbol - it represents unique values created using Symbol  
 | any                       | unknown                         |
 | :-------------------------: | :-------------------------------: |
 | we can store the value by string, number, boolean, array | we can store the value by string, number, boolean, array |
 | we can use it without checking it | we must check the type before we use |
 | it has less saftey        |                                 |
-&nbsp;&nbsp;&nbsp;10. never - never is used for a function that does not return any value normally because it never completes successfully
-&nbsp;&nbsp;&nbsp;11. void - void is used for a function that does not return any useful value but can complete its task successfully
-&nbsp;&nbsp;&nbsp;12. object - it represents non-primitive values, such as objects, arrays, and functions
-&nbsp;&nbsp;&nbsp;13. array - it specifies the type of elements that an array can contain
-&nbsp;&nbsp;&nbsp;| array                     | tupple                          |
-&nbsp;&nbsp;&nbsp;| :-------------------------: | :-------------------------------: |
-&nbsp;&nbsp;&nbsp;| Elements are generally of the same type | Each position can have a specific type |
-&nbsp;&nbsp;&nbsp;| The number of elements can change | The positions and types are defined by its structure |
-&nbsp;&nbsp;&nbsp;| Example: number[]         |                                 |
-&nbsp;&nbsp;&nbsp;
+10. never - never is used for a function that does not return any value normally because it never completes successfully  
+11. void - void is used for a function that does not return any useful value but can complete its task successfully  
+12. object - it represents non-primitive values, such as objects, arrays, and functions  
+13. array - it specifies the type of elements that an array can contain  
+| array                     | tupple                          |
+| :-------------------------: | :-------------------------------: |
+| Elements are generally of the same type | Each position can have a specific type |
+| The number of elements can change | The positions and types are defined by its structure |
+| Example: number[]         |                                 |
+
 <!-- 2 -->
 ◯ Function :-
 &nbsp;&nbsp;&nbsp;parameter types - It specifies what input should be given to a function.
