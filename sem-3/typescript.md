@@ -161,7 +161,7 @@ there are 9 main concepts of narrowing :
 
 <!-- 7 -->
 ◯ classes :- Properties + Constructor + Methods + access modifier  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A blueprint for creating objects that contain data and methods.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A blueprint for creating objects that contain data and methods.  
 1. properties :- Stores data in a class.   
 2. constructor :- A special method that initializes an object when it is created.  
 3. methods :- A function defined inside a class.  
@@ -169,8 +169,8 @@ there are 9 main concepts of narrowing :
 
 ◯ oops :-
 1. inheritance - Allows one class to reuse and extend another class.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) extend - Allows a child class to inherit from a parent class.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) super - Used to access the parent class's constructor and methods.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) extend - Allows a child class to inherit from a parent class.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) super - Used to access the parent class's constructor and methods.  
 
 2. method overriding - Allows a child class to provide its own implementation of a parent class method.
 
