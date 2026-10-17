@@ -40,6 +40,7 @@
 5. undefined - it represents an undefined value  
 6. bigint - it represents integers larger than the range safely represented by the number type  
 7. symbol - it represents unique values created using Symbol   
+
 | any                       | unknown                         |
 | :-------------------------: | :-------------------------------: |
 | we can store the value by string, number, boolean, array | we can store the value by string, number, boolean, array |
