@@ -96,42 +96,42 @@
 | it cannot be reopened or merged                 | it can be extended and merged     |      
 
 <!-- 4 -->
-&nbsp;&nbsp;&nbsp;
+
 ◯ Type composition :-  
-&nbsp;&nbsp;&nbsp; Type composition means combining multiple types to create one new type.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type composition means combining multiple types to create one new type.
 
-1. Union types - A Union Type in TypeScript allows a variable to accept a value of any one of two or more types using the | operator.
-(i) primitive union - it allows a variable to accept values of two or more primitive types, such as string, number, or boolean.
-(ii) multiple union - it allows a variable to accept values of three or more types using the | operator.
-(iii) litral union - it allows a variable to accept only specific, predefined values.
--> it only allows 3 values - pending, success, error (if we assigned failed, an error occurs)
+1. Union types - A Union Type in TypeScript allows a variable to accept a value of any one of two or more types using the | operator.  
+(i) primitive union - it allows a variable to accept values of two or more primitive types, such as string, number, or boolean.  
+(ii) multiple union - it allows a variable to accept values of three or more types using the | operator.  
+(iii) litral union - it allows a variable to accept only specific, predefined values.  
+-> it only allows 3 values - pending, success, error (if we assigned failed, an error occurs)  
 
-1. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new type.
-there are four usecases of intersection : 
-(i) object intersection - Object Intersection means combining all the properties of two objects into a single type using the & operator.
-(ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & operator.
-(iii) intersction confilcts - Intersection Conflict occurs when two types have the same property but different data types.
-(iv) combinig types - it means creating a specific type using both Union (|) and Intersection (&) operators.
+2. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new type.  
+there are four usecases of intersection :   
+(i) object intersection - Object Intersection means combining all the properties of two objects into a single type using the & operator.  
+(ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & operator.  
+(iii) intersction confilcts - Intersection Conflict occurs when two types have the same property but different data types.  
+(iv) combinig types - it means creating a specific type using both Union (|) and Intersection (&) operators.  
 
-1. litral types - Allow only a specific, exact value instead of a broad type.
-there are main 5 concepts of litral types :
-(i) string litral - Allow only specified string values.
-(ii) Number Literals - Allow only specified numeric values.
-(iii) Boolean Literals - Allow only the exact value true or false.
-(iv) Const Assertions (as const) - Preserve exact literal values and make object properties and arrays readonly.
-(v) Literal Unions - Combine multiple literal values using | to allow only those specified values.
+3. litral types - Allow only a specific, exact value instead of a broad type.  
+there are main 5 concepts of litral types :  
+(i) string litral - Allow only specified string values.  
+(ii) Number Literals - Allow only specified numeric values.  
+(iii) Boolean Literals - Allow only the exact value true or false.  
+(iv) Const Assertions (as const) - Preserve exact literal values and make object properties and arrays readonly.  
+(v) Literal Unions - Combine multiple literal values using | to allow only those specified values.  
 
-1. narrowing types - The process of reducing a broad type to a more specific type using checks.
-there are 9 main concepts of narrowing : 
-(i) typeof - Checks the type of a value using the typeof operator.
-(ii) instanceof - Checks whether an object belongs to a specific class.
-(iii) in operator - Checks whether an object contains a specific property.
-(iv) Equality Narrowing - Uses === or !== comparisons to narrow a type.
-(v) Truthiness Narrowing - Uses conditions like if (value) to narrow a type based on truthiness.
-(vi) Assignment Narrowing - TypeScript determines the current type of a variable after assigning a value.
-(vii) Control-Flow Analysis - TypeScript determines the current type by analyzing conditions, branches, and assignments.
-(viii) Discriminated Unions - Uses a common property to identify a specific type within a union.
-(ix) Exhaustiveness Checking - Ensures that all possible cases of a union are handled.
+4. narrowing types - The process of reducing a broad type to a more specific type using checks.  
+there are 9 main concepts of narrowing :   
+(i) typeof - Checks the type of a value using the typeof operator.   
+(ii) instanceof - Checks whether an object belongs to a specific class.   
+(iii) in operator - Checks whether an object contains a specific property.   
+(iv) Equality Narrowing - Uses === or !== comparisons to narrow a type.   
+(v) Truthiness Narrowing - Uses conditions like if (value) to narrow a type based on truthiness.   
+(vi) Assignment Narrowing - TypeScript determines the current type of a variable after assigning a value.   
+(vii) Control-Flow Analysis - TypeScript determines the current type by analyzing conditions, branches, and assignments.   
+(viii) Discriminated Unions - Uses a common property to identify a specific type within a union.   
+(ix) Exhaustiveness Checking - Ensures that all possible cases of a union are handled.   
 
 <!-- 5 -->
 
