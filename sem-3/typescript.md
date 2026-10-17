@@ -106,7 +106,7 @@
 (iii) litral union - it allows a variable to accept only specific, predefined values.  
 -> it only allows 3 values - pending, success, error (if we assigned failed, an error occurs)  
 
-2. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new type.  
+2. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type.  
 there are four usecases of intersection :   
 (i) object intersection - Object Intersection means combining all the properties of two objects into a single type using the & operator.  
 (ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operator.  
@@ -168,9 +168,9 @@ classes :- Properties + Constructor + Methods + access modifier
 4. access modifier :- public(by default), private, protected  
 
 oops :-
-1. inheritance - Allows one class to reuse and extend another class.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) extend - Allows a child class to inherit from a parent class.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) super - Used to access the parent class's constructor and methods.
+1. inheritance - Allows one class to reuse and extend another class.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) extend - Allows a child class to inherit from a parent class.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) super - Used to access the parent class's constructor and methods.  
 
 2. method overriding - Allows a child class to provide its own implementation of a parent class method.
 
