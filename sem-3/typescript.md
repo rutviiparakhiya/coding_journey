@@ -7,8 +7,8 @@
 | js                                                          | ts                        |
 | :-----------------------------------------------------------: | :-------------------------: |
 | Dynamically typed                                           | Statically typed          |
-| Types are checked at runtime during development/compilation | Types are checked         |
-| Runs directly in browser/Node.js into js first              | Compiled/transpiled       |
+| Types are checked at runtime                                | Types are checked at compile time |
+| Runs directly in browser                                    | Compiled/transpiled       |
 | simpler for small projects                                  | better for large projects |
 
 ◯ Static typing :-  
