@@ -70,7 +70,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arrow Function (=>) - Short syntax for writing a function.  
 
 ◯ Object Types :-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Type - Defines an object's properties and their data types.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it Defines an object's properties and their data types.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Required Property - The property is required.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional Property (?) - The property is optional.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Readonly Property - The property cannot be reassigned.  
