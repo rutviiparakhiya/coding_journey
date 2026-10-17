@@ -111,9 +111,9 @@ there are four usecases of intersection :
 (i) object intersection - Object Intersection means combining all the properties of two objects into a single type using the & operator.  
 (ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & operator.  
 (iii) intersction confilcts - Intersection Conflict occurs when two types have the same property but different data types.  
-(iv) combinig types - it means creating a specific type using both Union (|) and Intersection & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operators.  
+(iv) combinig types - it means creating a specific type using both Union (|) and Intersection & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operators.  
 
-3. litral types - Allow only a specific, exact value instead of a broad type.  
+1. litral types - Allow only a specific, exact value instead of a broad type.  
 there are main 5 concepts of litral types :  
 (i) string litral - Allow only specified string values.  
 (ii) Number Literals - Allow only specified numeric values.  
@@ -121,7 +121,7 @@ there are main 5 concepts of litral types :
 (iv) Const Assertions (as const) - Preserve exact literal values and make object properties and arrays readonly.  
 (v) Literal Unions - Combine multiple literal values using | to allow only those specified values.  
 
-4. narrowing types - The process of reducing a broad type to a more specific type using checks.  
+1. narrowing types - The process of reducing a broad type to a more specific type using checks.  
 there are 9 main concepts of narrowing :   
 (i) typeof - Checks the type of a value using the typeof operator.   
 (ii) instanceof - Checks whether an object belongs to a specific class.   
