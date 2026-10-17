@@ -60,25 +60,25 @@
 
 <!-- 2 -->
 ◯ Function :-
-&nbsp;&nbsp;&nbsp;parameter types - It specifies what input should be given to a function.
-&nbsp;&nbsp;&nbsp;return types - It defines what type of value a function will return.
-&nbsp;&nbsp;&nbsp;Optional Parameter (?) - Providing the input is optional.
-&nbsp;&nbsp;&nbsp;Default Parameter (=) - If no input is provided, the default value is used.
-&nbsp;&nbsp;&nbsp;Callback Function - Passing a function as an argument to another function.
-&nbsp;&nbsp;&nbsp;Rest Parameter (...) - Collecting multiple arguments into a single parameter.
-&nbsp;&nbsp;&nbsp;Function Expression - Storing a function in a variable.
-&nbsp;&nbsp;&nbsp;Arrow Function (=>) - Short syntax for writing a function.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parameter types - It specifies what input should be given to a function.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return types - It defines what type of value a function will return.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional Parameter (?) - Providing the input is optional.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Default Parameter (=) - If no input is provided, the default value is used.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Callback Function - Passing a function as an argument to another function.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rest Parameter (...) - Collecting multiple arguments into a single parameter.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function Expression - Storing a function in a variable.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arrow Function (=>) - Short syntax for writing a function.  
 
 ◯ Object Types :-
-&nbsp;&nbsp;&nbsp;Object Type - Defines an object's properties and their data types.
-&nbsp;&nbsp;&nbsp;Required Property - The property is required.
-&nbsp;&nbsp;&nbsp;Optional Property (?) - The property is optional.
-&nbsp;&nbsp;&nbsp;Readonly Property - The property cannot be reassigned.
-&nbsp;&nbsp;&nbsp;Nested Object - An object inside another object.
-&nbsp;&nbsp;&nbsp;Index Signature - Defines the type for dynamic keys.
-&nbsp;&nbsp;&nbsp;Method - A function defined within an object.
-&nbsp;&nbsp;&nbsp;Function Property - A function is stored as an object property.
-&nbsp;&nbsp;&nbsp;this keyword - Refers to the current instance of an object.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Type - Defines an object's properties and their data types.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Required Property - The property is required.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional Property (?) - The property is optional.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Readonly Property - The property cannot be reassigned.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nested Object - An object inside another object.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Index Signature - Defines the type for dynamic keys.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Method - A function defined within an object.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function Property - A function is stored as an object property.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this keyword - Refers to the current instance of an object.  
 
 <!-- 3 -->
 
