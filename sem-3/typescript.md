@@ -143,7 +143,7 @@ there are 9 main concepts of narrowing :
 5. Mapped Types - it creates a new type by transforming the properties of an existing type.
 
 <!-- 6 -->
-◯ Utility types :- Utility types are built-in generic types provided by TypeScript for transforming existing types, They allow common type transformations without manually defining a new type each time.
+◯ Utility types :- Utility types are built-in generic types provided by TypeScript for transforming existing types, They allow common type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; transformations without manually defining a new type each time.
 
 1. partial - it Makes all properties optional in a type.
 2. required - it Makes all properties required in a type.
