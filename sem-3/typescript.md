@@ -51,6 +51,7 @@
 2.  void - void is used for a function that does not return any useful value but can complete its task successfully  
 3.  object - it represents non-primitive values, such as objects, arrays, and functions  
 4.  array - it specifies the type of elements that an array can contain  
+
 | array                     | tupple                          |
 | :-------------------------: | :-------------------------------: |
 | Elements are generally of the same type | Each position can have a specific type |
