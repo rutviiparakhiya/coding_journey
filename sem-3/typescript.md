@@ -69,7 +69,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function Expression - Storing a function in a variable.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arrow Function (=>) - Short syntax for writing a function.  
 
-◯ Object Types :-
+◯ Object Types :-  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Type - Defines an object's properties and their data types.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Required Property - The property is required.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional Property (?) - The property is optional.  
