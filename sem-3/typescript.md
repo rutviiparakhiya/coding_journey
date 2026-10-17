@@ -104,7 +104,7 @@
 (i) primitive union - it allows a variable to accept values of two or more primitive types, such as string, number, or boolean.  
 (ii) multiple union - it allows a variable to accept values of three or more types using the | operator.  
 (iii) litral union - it allows a variable to accept only specific, predefined values.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> it only allows 3 values - pending, success, error (if we assigned failed, an error occurs)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> it only allows 3 values - pending, success, error (if we assigned failed, an error occurs)  
 
 1. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type.  
 there are four usecases of intersection :   
