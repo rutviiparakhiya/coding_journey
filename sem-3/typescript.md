@@ -4,12 +4,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TypeScript adds types to JavaScript and is converted into JavaScript before running.  
 
 ◯ Diffrence between js and ts :- 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| js                                                          | ts                        |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| :-----------------------------------------------------------: | :-------------------------: |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Dynamically typed                                           | Statically typed          |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Types are checked at runtime during development/compilation | Types are checked         |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Runs directly in browser/Node.js into js first              | Compiled/transpiled       |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| simpler for small projects                                  | better for large projects |
+| js                                                          | ts                        |
+| :-----------------------------------------------------------: | :-------------------------: |
+| Dynamically typed                                           | Statically typed          |
+| Types are checked at runtime during development/compilation | Types are checked         |
+| Runs directly in browser/Node.js into js first              | Compiled/transpiled       |
+| simpler for small projects                                  | better for large projects |
 
 ◯ Static typing :-  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Static typing means types are checked before the program runs.  
@@ -23,7 +23,6 @@
 | before the program runs            | while the program is running     |
 | errors are found beforee execution | error happing during executation |
 | e.g. - typescript type error       | e.g. - undefined error           |
-
 
 ◯ Diffrence between parameter and return type :-  
 | parameter                 | return type                     |     
@@ -41,9 +40,9 @@
 &nbsp;&nbsp;&nbsp;5. undefined - it represents an undefined value
 &nbsp;&nbsp;&nbsp;6. bigint - it represents integers larger than the range safely represented by the number type
 &nbsp;&nbsp;&nbsp;7. symbol - it represents unique values created using Symbol
-&nbsp;&nbsp;&nbsp;| any                       | unknown                         |
-&nbsp;&nbsp;&nbsp;| :-------------------------: | :-------------------------------: |
-&nbsp;&nbsp;&nbsp;| we can store the value by string, number, boolean, array | we can store the value by string, number, boolean, array |
+| any                       | unknown                         |
+| :-------------------------: | :-------------------------------: |
+| we can store the value by string, number, boolean, array | we can store the value by string, number, boolean, array |
 &nbsp;&nbsp;&nbsp;| we can use it without checking it | we must check the type before we use |
 &nbsp;&nbsp;&nbsp;| it has less saftey        |                                 |
 &nbsp;&nbsp;&nbsp;10. never - never is used for a function that does not return any value normally because it never completes successfully
@@ -105,14 +104,14 @@
 (iii) litral union - it allows a variable to accept only specific, predefined values.
 -> it only allows 3 values - pending, success, error (if we assigned failed, an error occurs)
 
-2. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new type.
+1. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new type.
 there are four usecases of intersection : 
 (i) object intersection - Object Intersection means combining all the properties of two objects into a single type using the & operator.
 (ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & operator.
 (iii) intersction confilcts - Intersection Conflict occurs when two types have the same property but different data types.
 (iv) combinig types - it means creating a specific type using both Union (|) and Intersection (&) operators.
 
-3. litral types - Allow only a specific, exact value instead of a broad type.
+1. litral types - Allow only a specific, exact value instead of a broad type.
 there are main 5 concepts of litral types :
 (i) string litral - Allow only specified string values.
 (ii) Number Literals - Allow only specified numeric values.
@@ -120,7 +119,7 @@ there are main 5 concepts of litral types :
 (iv) Const Assertions (as const) - Preserve exact literal values and make object properties and arrays readonly.
 (v) Literal Unions - Combine multiple literal values using | to allow only those specified values.
 
-4. narrowing types - The process of reducing a broad type to a more specific type using checks.
+1. narrowing types - The process of reducing a broad type to a more specific type using checks.
 there are 9 main concepts of narrowing : 
 (i) typeof - Checks the type of a value using the typeof operator.
 (ii) instanceof - Checks whether an object belongs to a specific class.
