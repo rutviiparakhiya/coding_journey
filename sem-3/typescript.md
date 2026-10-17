@@ -20,7 +20,7 @@
 ◯ Diffrence between compile time and run time :-    
 | compile time                       | run time                         |
 | :----------------------------------: | :--------------------------------: |
-| checks an error before the program runs | while the program is running     |
+| checks an error before the program runs | checks an error while the program is running |
 | errors are found beforee execution | error happing during executation |
 | e.g. - typescript type error       | e.g. - undefined error           |
 
