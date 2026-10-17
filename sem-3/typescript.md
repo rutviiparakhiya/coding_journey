@@ -1,7 +1,7 @@
 ◯ Type Script (TypeScript = JavaScript + Types)   
 
-&nbsp;&nbsp;&nbsp;It is an extended version of JavaScript that adds types, making the code easier and safer to write.  
-&nbsp;&nbsp;&nbsp;TypeScript adds types to JavaScript and is converted into JavaScript before running.  
+&nbsp;&nbsp;&nbsp;&nbsp;It is an extended version of JavaScript that adds types, making the code easier and safer to write.  
+&nbsp;&nbsp;&nbsp;&nbsp;TypeScript adds types to JavaScript and is converted into JavaScript before running.  
 
 ◯ Diffrence between js and ts :-   
 
