@@ -197,3 +197,19 @@ there are 9 main concepts of narrowing :
 6. Error Unions - Combines different error types into one union type.
    
 <!-- 9 -->
+◯ configuration :-  
+Configuration determines how TypeScript should check the code, which rules to follow, and how to generate JavaScript.  
+
+1. tsconfi(configuration file) - It is the file that stores the settings of a TypeScript project: tsconfig.json.  
+Example: target(Which JavaScript version to generate the output in),  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;module(Which module system to use in JavaScript),  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;include(Which files to include in the TypeScript project)  
+
+2. Strict Type Checking(Type-checking rules) - These are rules for checking type-related errors in the code more strictly.   
+Example: strict(Enable all major strict type-checking rules),  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;noImplicitAny(Show an error when a type is not specified and TypeScript implicitly assumes any),
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strictNullChecks(Check null and undefined properly)  
+
+3. Compiler Options(Configuration settings) - These are settings that control how the compiler checks and compiles the code.  
+Example: outDir(The folder where generated JavaScript files should be placed),  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;noEmit(Do not generate JavaScript output)  
