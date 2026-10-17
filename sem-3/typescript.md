@@ -82,12 +82,11 @@
 
 <!-- 3 -->
 
-◯ Type aliases :-
-&nbsp;&nbsp;&nbsp;Type Alias is a way to give a custom name to a type so you can reuse it.  
-&nbsp;&nbsp;&nbsp;A type alias is created using the type keyword.  
+◯ Type aliases :- Type Alias is a way to give a custom name to a type so you can reuse it.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → A type alias is created using the type keyword.   
 
 ◯ Interface :-  
-&nbsp;&nbsp;&nbsp;An interface defines the structure and properties that an object should have.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An interface defines the structure and properties that an object should have.  
 
 ◯ Diffrence between type and interface :-  
 | type                                            | interface                         | 
