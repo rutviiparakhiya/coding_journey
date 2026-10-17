@@ -109,7 +109,7 @@
 2. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new type.  
 there are four usecases of intersection :   
 (i) object intersection - Object Intersection means combining all the properties of two objects into a single type using the & operator.  
-(ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operator.  
+(ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operator.  
 (iii) intersction confilcts - Intersection Conflict occurs when two types have the same property but different data types.  
 (iv) combinig types - it means creating a specific type using both Union (|) and Intersection & operators.  
 
@@ -163,23 +163,19 @@ there are 9 main concepts of narrowing :
 classes = Properties + Constructor + Methods + access modifier
 A blueprint for creating objects that contain data and methods.
 
-◯ properties :- Stores data in a class.
-
-◯ construcutor :- A special method that initializes an object when it is created.
-
-◯ methods :- A function defined inside a class.
-
-◯ access modifier :- public(by default), private, protected
+1. properties :- Stores data in a class.   
+2. constructor :- A special method that initializes an object when it is created.  
+3. methods :- A function defined inside a class.  
+4. access modifier :- public(by default), private, protected  
 
 oops :-
-
 1. inheritance - Allows one class to reuse and extend another class.
 (i) extend - Allows a child class to inherit from a parent class.
 (ii) super - Used to access the parent class's constructor and methods.
 
-2. method overriding - Allows a child class to provide its own implementation of a parent class method.
+1. method overriding - Allows a child class to provide its own implementation of a parent class method.
 
-3. abstaction - Hides implementation details and defines what a class must provide.
+2. abstaction - Hides implementation details and defines what a class must provide.
 
 
 <!-- 8 -->
