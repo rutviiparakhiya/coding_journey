@@ -109,7 +109,7 @@
 2. intersection types - In TypeScript, an Intersection Type combines all properties of two or more types using the & operator to create a new type.  
 there are four usecases of intersection :   
 (i) object intersection - Object Intersection means combining all the properties of two objects into a single type using the & operator.  
-(ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operator.  
+(ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operator.  
 (iii) intersction confilcts - Intersection Conflict occurs when two types have the same property but different data types.  
 (iv) combinig types - it means creating a specific type using both Union (|) and Intersection & operators.  
 
