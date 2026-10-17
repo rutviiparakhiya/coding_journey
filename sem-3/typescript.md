@@ -56,7 +56,7 @@
 | :-------------------------: | :-------------------------------: |
 | Elements are generally of the same type | Each position can have a specific type |
 | The number of elements can change | The positions and types are defined by its structure |
-| Example: number[]         |                                 |
+| Example: number[]         | Example: [string, number, boolean] |
 
 <!-- 2 -->
 ◯ Function :-  
