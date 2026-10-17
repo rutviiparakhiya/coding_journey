@@ -3,20 +3,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is an extended version of JavaScript that adds types, making the code easier and safer to write.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TypeScript adds types to JavaScript and is converted into JavaScript before running.  
 
-◯ Diffrence between js and ts :-   
-
-| js                                                          | ts                        |
-| :-----------------------------------------------------------: | :-------------------------: |
-| Dynamically typed                                           | Statically typed          |
-| Types are checked at runtime during development/compilation | Types are checked         |
-| Runs directly in browser/Node.js into js first              | Compiled/transpiled       |
-| simpler for small projects                                  | better for large projects |
+◯ Diffrence between js and ts :- 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| js                                                          | ts                        |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| :-----------------------------------------------------------: | :-------------------------: |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Dynamically typed                                           | Statically typed          |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Types are checked at runtime during development/compilation | Types are checked         |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Runs directly in browser/Node.js into js first              | Compiled/transpiled       |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| simpler for small projects                                  | better for large projects |
 
 ◯ Static typing :-  
-&nbsp;&nbsp;&nbsp;Static typing means types are checked before the program runs.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Static typing means types are checked before the program runs.  
 
 ◯ Dynamic typing :-    
-&nbsp;&nbsp;&nbsp;Dynamic typing means variable types are decided at runtime and can change later.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dynamic typing means variable types are decided at runtime and can change later.   
 
 ◯ Diffrence between complie time and run time :-    
 | compile time                       | run time                         |
