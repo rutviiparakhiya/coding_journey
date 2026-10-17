@@ -8,7 +8,7 @@
 | :-----------------------------------------------------------: | :-------------------------: |
 | Dynamically typed                                           | Statically typed          |
 | Types are checked at runtime                                | Types are checked at compile time |
-| Runs directly in browser                                    | Compiled/transpiled       |
+| Runs directly in browser                                    | transpiled into js before running |
 | simpler for small projects                                  | better for large projects |
 
 ◯ Static typing :-  
