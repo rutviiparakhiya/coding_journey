@@ -111,7 +111,7 @@ there are four usecases of intersection :
 (i) object intersection - Object Intersection means combining all the properties of two objects into a single type using the & operator.  
 (ii) interface intersection - Interface Intersection means combining all the properties of two or more interfaces into one type using the & operator.  
 (iii) intersction confilcts - Intersection Conflict occurs when two types have the same property but different data types.  
-(iv) combinig types - it means creating a specific type using both Union (|) and Intersection & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operators.  
+(iv) combinig types - it means creating a specific type using both Union (|) and Intersection & operators.  
 
 1. litral types - Allow only a specific, exact value instead of a broad type.  
 there are main 5 concepts of litral types :  
