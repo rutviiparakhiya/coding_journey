@@ -160,9 +160,8 @@ there are 9 main concepts of narrowing :
 13. uncapitaliize - Converts the first character of a string literal type to lowercase.
 
 <!-- 7 -->
-classes = Properties + Constructor + Methods + access modifier
-A blueprint for creating objects that contain data and methods.
-
+classes :- Properties + Constructor + Methods + access modifier  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A blueprint for creating objects that contain data and methods.
 1. properties :- Stores data in a class.   
 2. constructor :- A special method that initializes an object when it is created.  
 3. methods :- A function defined inside a class.  
@@ -170,12 +169,12 @@ A blueprint for creating objects that contain data and methods.
 
 oops :-
 1. inheritance - Allows one class to reuse and extend another class.
-(i) extend - Allows a child class to inherit from a parent class.
-(ii) super - Used to access the parent class's constructor and methods.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) extend - Allows a child class to inherit from a parent class.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) super - Used to access the parent class's constructor and methods.
 
-1. method overriding - Allows a child class to provide its own implementation of a parent class method.
+2. method overriding - Allows a child class to provide its own implementation of a parent class method.
 
-2. abstaction - Hides implementation details and defines what a class must provide.
+3. abstaction - Hides implementation details and defines what a class must provide.
 
 
 <!-- 8 -->
