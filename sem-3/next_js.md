@@ -23,12 +23,12 @@ it provides built in features such as file based routing, multiple rendering str
 ◯ File-based-routing :-   
 The application's routing system is automatically determined by the structure of your files and folders.   
 
-□ Type of file base routing :-    
+□ Type of file base routing :-
 1. static routes - they are pages with fixed URLs, such as /about, /contact, and /pricing.   
 2. nested routes - they are created by putting folders inside other folders to create subpages, such as /dashboard/settings.    
 3. dynamic routes - they are used when a part of the URL changes, using square brackets like [id], such as /products/1 or /products/25.   
 
-□ Method of getting values from url :-   
+□ Method of getting values from url :-
 1. route parameters - they take values from dynamic URL segments, such as id = "25" in /products/25, to identify which resource the page displays.    
 2. search parameters - the values written after ? in a URL, used for searching, filtering, sorting, or pagination, such as /products?search=phone.    
 
