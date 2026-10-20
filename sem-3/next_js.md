@@ -55,7 +55,7 @@ layout concepts and benifits :
 3. nested layout - it allows a route segment to have its own layout inside the root layout, sharing UI such as a sidebar across its subpages.  
 4. Layout Persistence - it means the layout remains mounted while navigating between routes that share the same layout, and only the page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; content changes.  
 5. layout Hierarchy - it is the order in which multiple nested layouts wrap a page, from the root layout to the innermost layout.
-6. Different Layouts for Different Sections - Different sections of an application can use different layouts, and route groups ( ) help organize them without changing the URL.  
+6. Different Layouts for Different Sections - Different sections of an application can use different layouts, and route groups ( ) help organize &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; them without changing the URL.  
 
 ◯ Server Components :- That run on the server by default in Next.js App Router and are mainly used for fetching data and accessing server-side resources.  
 
