@@ -20,8 +20,7 @@ it provides built in features such as file based routing, multiple rendering str
 | :----------: | :-----------: |
 |            |             |
 
-◯ File-based-routing :-   
-The application's routing system is automatically determined by the structure of your files and folders.   
+◯ File-based-routing :- The application's routing system is automatically determined by the structure of your files and folders.   
 
 □ Type of file base routing :-
 1. static routes - they are pages with fixed URLs, such as /about, /contact, and /pricing.   
