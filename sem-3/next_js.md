@@ -48,11 +48,12 @@ it provides built in features such as file based routing, multiple rendering str
 ◯ navigation with link :- In Next.js, Link is used to navigate from one page to another without fully reloading the page.    
 
 ◯ Layout :- It provides shared UI for multiple pages, such as a Navbar and Footer.    
+
 layout concepts and benifits :   
 1. root layout - it wraps all pages and contains the required html and body tags.  
 2. Shared UI with a Layout - A layout allows multiple pages to use the same UI, such as a Navbar and Footer, without repeating the code.  
 3. nested layout - it allows a route segment to have its own layout inside the root layout, sharing UI such as a sidebar across its subpages.  
-4. Layout Persistence - it means the layout remains mounted while navigating between routes that share the same layout, and only the page content changes.  
+4. Layout Persistence - it means the layout remains mounted while navigating between routes that share the same layout, and only the page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; content changes.  
 5. layout Hierarchy - it is the order in which multiple nested layouts wrap a page, from the root layout to the innermost layout.
 6. Different Layouts for Different Sections - Different sections of an application can use different layouts, and route groups ( ) help organize them without changing the URL.  
 
