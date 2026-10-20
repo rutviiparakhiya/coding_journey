@@ -98,22 +98,22 @@ reset() Function - The reset() function attempts to render the route again after
 
 ◯ Rendering :- Rendering is the process of generating the UI that the browser displays.
 
-◯ CSR — Client-Side Rendering :-  
-CSR means fetching data and rendering or updating the UI in the browser after JavaScript loads.  
-□ How it works : Browser → Load JavaScript → React Runs → Fetch API → Update UI  
-□ When to Use CSR : Interactive dashboards, Chat applications, Client-side search and filtering, Real-time updates, Complex forms and drag-and-drop interfaces  
-□ advantages - Provides interactive user experiences, - Works well for browser-dependent interactions, Updates UI without reloading the entire page.  
-□ disadvabtages - Search engine indexing can be less straightforward for content rendered only in the browser, Can increase  initial loading time if substantial JavaScript is required, Some content may appear only after JavaScript runs and data loads.
+◯ CSR(Client-Side Rendering) :-   
+CSR means fetching data and rendering or updating the UI in the browser after JavaScript loads.   
+□ How it works : Browser → Load JavaScript → React Runs → Fetch API → Update UI   
+□ When to Use : Interactive dashboards, Chat applications, Client-side search and filtering, Real-time updates, Complex forms and drag-and-drop interfaces.    
+□ advantages : Provides interactive user experiences, Works well for browser-dependent interactions, Updates UI without reloading the entire page.    
+□ disadvabtages : Search engine indexing can be less straight forward for content rendered only in the browser, Can increase  initial loading time if substantial JavaScript is required, Some content may appear only after JavaScript runs and data loads.  
 
-◯ Static Rendering :- Static Rendering means generating a page before the user requests it and reusing the generated result for multiple users.  
+◯ Static Rendering :- Static Rendering means generating a page before the user requests it and reusing the generated result for multiple users.   
 □ how it works : Build / Static Generation → Generate HTML → Store / Cache Result → User Request → Serve Existing Result   
-□ advantages - Fast responses, Good scalability, Good SEO, - Less server work for each request    
-□ disadvantages - Content may become outdated if it is not regenerated, Not suitable for highly personalized content that changes for each user, - Content updates may require rebuilding or revalidating the page.    
+□ advantages : Fast responses, Good scalability, Good SEO, Less server work for each request     
+□ disadvantages : Content may become outdated if it is not regenerated, Not suitable for highly personalized content that changes for each user : Content updates may require rebuilding or revalidating the page.    
 
-◯ Dynamic Rendering :- Dynamic Rendering means generating a page on the server at request time using request-specific information or data.  
-□ How it works : User Request → Next.js Server → Fetch / Calculate Data → Generate Response → Browser   
-□ advantages - - Handles request-specific information., Works with cookies and authentication., Supports personalized content for □ each user., Displays up-to-date data.   
-□ disadvantages - - Can increase server costs under heavy traffic., Requires more server processing for each request., May have slower response times than static rendering.   
+◯ Dynamic Rendering :- Dynamic Rendering means generating a page on the server at request time using request-specific information or data.   
+□ How it works : User Request → Next.js Server → Fetch / Calculate Data → Generate Response → Browser    
+□ advantages : Handles request-specific information, Works with cookies and authentication, Supports personalized content for each user, Displays up-to-date data.   
+□ disadvantages : Can increase server costs under heavy traffic, Requires more server processing for each request, May have slower response times than static rendering.   
 
 ◯ Diffrence between dynamic routing and static routing :-
 | static rendering                        | dynamic rendering                              |
@@ -125,9 +125,9 @@ CSR means fetching data and rendering or updating the UI in the browser after Ja
 
 ◯ SSR — Server-Side Rendering :- SSR means generating HTML on the server for a user's request.
 How it works : User Request → Next.js Server → Fetch Request-Specific Data → Generate HTML → Browser → Hydration
-When to Use SSR / Dynamic Rendering : - Data that must be fetched at request time, Personalized feeds, Order details, Authenticated dashboards, User profiles
-advantages - Can display request-specific and up-to-date data, Supports personalized content, Can display request-specific and up-to-date data.
-disadvantages - May be slower than serving a cached static page, Requires more server resources under heavy traffic, Can increase response time because the server performs work for each request.
+When to Use SSR / Dynamic Rendering : Data that must be fetched at request time, Personalized feeds, Order details, Authenticated dashboards, User profiles
+advantages : Can display request-specific and up-to-date data, Supports personalized content, Can display request-specific and up-to-date data.
+disadvantages : May be slower than serving a cached static page, Requires more server resources under heavy traffic, Can increase response time because the server performs work for each request.
 
 ◯ SSG — Static Site Generation :- SSG means generating pages ahead of time, usually during the build, so the generated result can be reused for multiple requests.
 How it works : Build → Fetch Data → Generate Page → Store / Cache Result → Serve to Users
@@ -137,6 +137,6 @@ Disadvantages : Not ideal for content that must change for every user's request,
 
 ◯ ISR — Incremental Static Regeneration(Static Rendering + Revalidation) :- ISR means updating statically generated pages after a specified time or when revalidation is triggered, without rebuilding the entire application.
 How it works : Generate Static Page → Serve Cached Page → Revalidate → Regenerate Page → Serve Updated Version
-When to Use ISR: - Travel listings, Real-estate listings, Blog listings, News websites, Product catalogs
+When to Use ISR : Travel listings, Real-estate listings, Blog listings, News websites, Product catalogs
 Advantages: Fast responses from cached pages, Content can be refreshed without rebuilding the entire application, Reduces repeated server work. 
 Disadvantages: Content may remain outdated until revalidation occurs, Regeneration can add server work, Revalidation timing and cache behavior require careful configuration.
