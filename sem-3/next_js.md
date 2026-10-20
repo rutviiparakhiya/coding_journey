@@ -45,13 +45,11 @@ it provides built in features such as file based routing, multiple rendering str
 | we should use When at least one segment is required | we should use When the base route and nested routes are both needed |
 | /docs is not matched                                | /docs is matched                                                    |
 
-◯ navigation with link :-   
-In Next.js, Link is used to navigate from one page to another without fully reloading the page.    
+◯ navigation with link :- In Next.js, Link is used to navigate from one page to another without fully reloading the page.    
 
-◯ Layout :-    
-it is a special file named layout.tsx that provides shared UI for multiple pages, such as a Navbar and Footer.    
-layout concepts and benifit :   
-1. root layout - it is the top-level layout in Next.js that wraps all pages and contains the required <html> and <body> tags.  
+◯ Layout :- It provides shared UI for multiple pages, such as a Navbar and Footer.    
+layout concepts and benifits :   
+1. root layout - it wraps all pages and contains the required html and body tags.  
 2. Shared UI with a Layout - A layout allows multiple pages to use the same UI, such as a Navbar and Footer, without repeating the code.  
 3. nested layout - it allows a route segment to have its own layout inside the root layout, sharing UI such as a sidebar across its subpages.  
 4. Layout Persistence - it means the layout remains mounted while navigating between routes that share the same layout, and only the page content changes.  
