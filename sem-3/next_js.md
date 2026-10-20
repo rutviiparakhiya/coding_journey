@@ -28,7 +28,7 @@ it provides built in features such as file based routing, multiple rendering str
 3. dynamic routes - they are used when a part of the URL changes, using square brackets like [id], such as /products/1 or /products/25.   
 
 □ Method of getting values from url :-
-1. route parameters - they take values from dynamic URL segments, such as id = "25" in /products/25, to identify which resource the page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; displays.    
+1. route parameters - they take values from dynamic URL segments, such as id = "25" in /products/25, to identify which resource the page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; displays.    
 2. search parameters - the values written after ? in a URL, used for searching, filtering, sorting, or pagination, such as /products?search=phone.    
 
 ◯ Diffrence between route parametere and search parametere :-    
