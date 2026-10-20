@@ -84,7 +84,7 @@ there are 2 methods of data fetching :
 ◯ UI Loading State :- A loading state shows a message or UI while data is being fetched or page content is being prepared.
 there are 2 types of creating ui states :
 1. loading.tsx: Displays loading UI for a route segment and its child routes.
-2. - Suspense: Displays fallback UI while a specific component or section is waiting for data.
+2. Suspense: Displays fallback UI while a specific component or section is waiting for data.
 
 ◯ Error Handling :- Error handling means displaying a useful error message when something goes wrong, such as an API failure or network error.
 
