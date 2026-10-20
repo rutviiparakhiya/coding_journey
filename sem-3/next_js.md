@@ -20,19 +20,19 @@ it provides built in features such as file based routing, multiple rendering str
 | :----------: | :-----------: |
 |            |             |
 
-◯ File-based-routing :-  
-Routes are created using folders and files inside the app/ directory, where page.tsx makes a folder accessible as a URL.   
+◯ File-based-routing :-   
+The application's routing system is automatically determined by the structure of your files and folders.   
 
-□ Type of file base routing :-  
-1. static routes - they are pages with fixed URLs, such as /about, /contact, and /pricing.  
-2. nested routes - they are created by putting folders inside other folders to create subpages, such as /dashboard/settings.  
-3. dynamic routes - they are used when a part of the URL changes, using square brackets like [id], such as /products/1 or /products/25.  
+□ Type of file base routing :-    
+1. static routes - they are pages with fixed URLs, such as /about, /contact, and /pricing.   
+2. nested routes - they are created by putting folders inside other folders to create subpages, such as /dashboard/settings.    
+3. dynamic routes - they are used when a part of the URL changes, using square brackets like [id], such as /products/1 or /products/25.   
 
-□ Method of getting values from url :-  
-1. route parameters - they take values from dynamic URL segments, such as id = "25" in /products/25, to identify which resource the page displays.  
-2. search parameters - the values written after ? in a URL, used for searching, filtering, sorting, or pagination, such as /products?search=phone.  
+□ Method of getting values from url :-   
+1. route parameters - they take values from dynamic URL segments, such as id = "25" in /products/25, to identify which resource the page displays.    
+2. search parameters - the values written after ? in a URL, used for searching, filtering, sorting, or pagination, such as /products?search=phone.    
 
-◯ Diffrence between route parametere and search parametere :-   
+◯ Diffrence between route parametere and search parametere :-    
 | route parametere                 | search parametere                   |
 | :--------------------------------: | :-----------------------------------: |
 | Gets the value from the URL path | Gets the value after ? in the URL.  |
@@ -140,3 +140,4 @@ How it works : Generate Static Page → Serve Cached Page → Revalidate → Reg
 When to Use ISR : Travel listings, Real-estate listings, Blog listings, News websites, Product catalogs
 Advantages: Fast responses from cached pages, Content can be refreshed without rebuilding the entire application, Reduces repeated server work. 
 Disadvantages: Content may remain outdated until revalidation occurs, Regeneration can add server work, Revalidation timing and cache behavior require careful configuration.
+
