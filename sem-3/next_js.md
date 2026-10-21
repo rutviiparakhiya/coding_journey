@@ -23,9 +23,9 @@ Next.js is a React-based framework used to build fast, SEO-friendly, and full-st
 ◯ File-based-routing :- The application's routing system is automatically determined by the structure of your files and folders.   
 
 ▢ Type of file base routing :-
-1. static routes - they are pages with fixed URLs, such as /about, /contact, and /pricing.   
-2. nested routes - they are created by putting folders inside other folders to create subpages, such as /dashboard/settings.    
-3. dynamic routes - they are used when a part of the URL changes, using square brackets like [id], such as /products/1 or /products/25.   
+1. Static routes - they are pages with fixed URLs, such as /about, /contact, and /pricing.   
+2. Nested routes - they are created by putting folders inside other folders to create subpages, such as /dashboard/settings.    
+3. Dynamic routes - they are used when a part of the URL changes, using square brackets like [id], such as /products/1 or /products/25.   
 
 ▢ Method of getting values from url :-
 1. route parameters - they take values from dynamic URL segments, such as id = "25" in /products/25, to identify which resource the page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; displays.    
@@ -45,7 +45,7 @@ Next.js is a React-based framework used to build fast, SEO-friendly, and full-st
 | we should use When at least one segment is required | we should use When the base route and nested routes are both needed |
 | /docs is not matched                                | /docs is matched                                                    |
 
-◯ navigation with link :- In Next.js, Link is used to navigate from one page to another without fully reloading the page.    
+◯ Navigation with link :- In Next.js, Link is used to navigate from one page to another without fully reloading the page.    
 
 ◯ Layout :- It provides shared UI for multiple pages, such as a Navbar and Footer.    
 
@@ -57,7 +57,7 @@ layout concepts and benifits :
 5. layout Hierarchy - it is the order in which multiple nested layouts wrap a page, from the root layout to the innermost layout.
 6. Different Layouts for Different Sections - Different sections of an application can use different layouts, and route groups ( ) help organize &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; them without changing the URL.  
 
-◯ Server Components :- That run on the server by default in Next.js App Router and are mainly used for fetching data and accessing server-side resources.  
+◯ Server Components :- That run on the server by default in Next.js App Router and are mainly used for fetching data and accessing server- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; side resources.  
 
 ◯ Client Components :- They are components that use "use client" to enable interactivity, React hooks, event handlers, and browser APIs in Next.js.  
 "use clinet" - It is a directive used at the top of a file to create a Client Component boundary when client-side features are required.  
