@@ -1,7 +1,7 @@
 NEXT JS (Full stack framework)   
 Next.js is a React-based full-stack framework for building modern web applications.     
 
-⇾ →it is a framework built on top of React.js that enables developers to build server-side rendered and statically generated web applications. It provides features like automatic code splitting, optimized performance, and easy routing.   
+→it is a framework built on top of React.js that enables developers to build server-side rendered and statically generated web applications. It provides features like automatic code splitting, optimized performance, and easy routing.   
 
 ◯ Diffrence between library and framework :-   
 | library | framework |
