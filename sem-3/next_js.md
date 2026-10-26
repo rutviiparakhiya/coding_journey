@@ -18,7 +18,6 @@ Next.js is a React-based framework used to build fast, SEO-friendly, and full-st
 ◯ Diffrence between app router and page router :-
 | app router | page router |
 | :----------: | :-----------: |
-|            |             |
 
 ◯ File-based-routing :- The application's routing system is automatically determined by the structure of your files and folders.   
 
