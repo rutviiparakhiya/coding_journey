@@ -1,10 +1,10 @@
 DSA - data structure and algorithem  
 
-Time complexity - it is the amount of time an algorithm takes to solve a problem as the input size increases.   
-Space complexity - it is the amount of extra memory an algorithm uses while solving a problem.   
+▢ Time complexity - it is the amount of time an algorithm takes to solve a problem as the input size increases.   
+▢ Space complexity - it is the amount of extra memory an algorithm uses while solving a problem.   
 
-◯ Data structure : it is the way to organize & store data so it can be accessed, updated, and managed efficiently.   
-→ There are two types of data structure :   
+◯ Data structure : It is the way to organize & store data so it can be accessed, updated, and managed efficiently.   
+&nbsp;&nbsp;&nbsp;&nbsp;→ There are two types of data structure :   
 1. primitive : Built-in types (int, char, float, double, bool)   
 2. non-primitive : Built using primitive types   
 
