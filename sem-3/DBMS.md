@@ -5,8 +5,8 @@ Database : An organized collection of related data that can be easily accessed, 
 Information : raw-data  
 
 ◯ 1-tier architecture : (1 layer)  
-&nbsp;&nbsp;&nbsp;&nbsp;It is an architecture where the user, application, and database are on the same system, and the user directly interacts with the database.
-&nbsp;&nbsp;&nbsp;database <-> server
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is an architecture where the user, application, and database are on the same system, and the user directly interacts with the database.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;database <-> server
 
 advantages: simple, low-cost, easy to use
 dis_advantages: single user, low security, no central data base, difficult to share
