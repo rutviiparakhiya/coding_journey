@@ -15,8 +15,8 @@ Information : raw-data
 &nbsp;&nbsp;&nbsp;&nbsp; The client directly communicates with the database & The server manages the database and processes queries.  
 &nbsp;&nbsp;&nbsp;&nbsp; client <-> network <-> database
 
-advantages: easy to accsess, low cost, easy deployment, simple
-dis-advantage: limited scalability, security issues, difficult maintanence
+▢ advantages: easy to accsess, low cost, easy deployment, simple  
+▢ dis-advantage: limited scalability, security issues, difficult maintanence  
 
 #_3-tier architecture : (3 layer)
 The client sends requests to the Application Server, which then communicates with the Database Server. It is more secure, easier to manage, and is used for large web applications.
