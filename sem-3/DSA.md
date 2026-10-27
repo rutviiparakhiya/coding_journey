@@ -9,17 +9,17 @@ DSA - data structure and algorithem
 2. non-primitive : Built using primitive types   
 
 ▢ Linear data struture :- Linear data structures store elements in a sequence, one after another.   
-&nbsp;&nbsp;&nbsp;&nbsp; → Each element is connected to the next or previous element.    
+&nbsp;&nbsp;&nbsp;&nbsp;→ Each element is connected to the next or previous element.    
 e.g. - Array, Linked List, Stack, Queue   
 
 ▢ Non-linear data structure :- Data elements are not arranged in a single, sequential order is called non-linear data structure.  
 e.g. - trees, graphs   
 
-◯ Algorithem : it is a step-by-step procedure to solve a problem or perform a task.    
+◯ Algorithem :- it is a step-by-step procedure to solve a problem or perform a task.    
 e.g. - searching algo, sorting algo, recursion, dynamic programing    
 
 ◯ Array :- An array stores multiple values of the same datatype in continuous memory.    
-→ Useful when fast, random access is a priority.  
+&nbsp;&nbsp;&nbsp;&nbsp; → Useful when fast, random access is a priority.  
 
 ▢ Array Operations and Methods :     
 1. Accessing Elements - Retrieve the value at a given index.  
@@ -72,10 +72,10 @@ e.g. - searching algo, sorting algo, recursion, dynamic programing
 1. Singly Linked List : Nodes have a single pointer to the next node and the last node points to NULL indicating the end of the list.
 
 ▢ operations with algorithems :   
-(a) Insertion :- Insertion at Beginning, Insertion at End, Insertion at Given Position
-(b) Deletion :- Deletion from Beginning (Head), Deletion from End, Deletion at Given Position
-(c) Searching :- It means finding whether a given value (key) exists in the Linked List or not.  
-(d) Traversal :- It means visiting each node of the Linked List one by one and printing its data.  
+(a) Insertion :- Insertion at Beginning, Insertion at End, Insertion at Given Position  
+(b) Deletion :- Deletion from Beginning (Head), Deletion from End, Deletion at Given Position  
+(c) Searching :- It means finding whether a given value (key) exists in the Linked List or not   
+(d) Traversal :- It means visiting each node of the Linked List one by one and printing its data   
 
 2. Doubly Linked List : Nodes have pointers to both next and previous nodes, each node contains three fields: Prev, Data, and Next. It allows traversal in both forward and backward directions.
 
