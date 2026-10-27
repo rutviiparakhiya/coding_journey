@@ -1,8 +1,8 @@
 DBMS - database management system (create, store, retrieve, update, and manage databases)
 
-Data : processed or organized into meaningful information.
-Database : An organized collection of related data that can be easily accessed, managed, and updated.
-Information : raw-data
+Data : processed or organized into meaningful information.  
+Database : An organized collection of related data that can be easily accessed, managed, and updated.  
+Information : raw-data  
 
 #_1-tier architecture : (1 layer)
 it is an architecture where the user, application, and database are on the same system, and the user directly interacts with the database.
