@@ -4,8 +4,8 @@ Data : processed or organized into meaningful information.
 Database : An organized collection of related data that can be easily accessed, managed, and updated.  
 Information : raw-data  
 
-#_1-tier architecture : (1 layer)
-it is an architecture where the user, application, and database are on the same system, and the user directly interacts with the database.
+#_1-tier architecture : (1 layer)  
+It is an architecture where the user, application, and database are on the same system, and the user directly interacts with the database.
     database <-> server
 
 advantages: simple, low-cost, easy to use
