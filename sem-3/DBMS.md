@@ -6,9 +6,9 @@ Information : raw-data
 
 ◯ 1-tier architecture : (1 layer)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is an architecture where the user, application, and database are on the same system, and the user directly interacts with the database.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. - database <-> server
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; example - database <-> server
 
-▢ advantages: simple, low-cost, easy to use
+▢ advantages: simple, low-cost, easy to use  
 ▢ dis-advantages: single user, low security, no central data base, difficult to share
 
 #_2-tier architecture : (2 layer)  
