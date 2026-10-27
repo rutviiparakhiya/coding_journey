@@ -68,7 +68,7 @@ e.g. - searching algo, sorting algo, recursion, dynamic programing
 | Conversion (int to string) | Convert integer to string             | to_string()           | O(logn)            |
 
 ◯ Linked List - It is a linear and dynamic data structure consisting of nodes, where each node contains data and a reference to the next node.
-→ There are 3 types of linked lists : 
+&nbsp;&nbsp;&nbsp;&nbsp; → There are 3 types of linked lists : 
 1. Singly Linked List : Nodes have a single pointer to the next node and the last node points to NULL indicating the end of the list.
 
 ▢ operations with algorithems :   
