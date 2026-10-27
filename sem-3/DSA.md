@@ -9,7 +9,7 @@ DSA - data structure and algorithem
 2. non-primitive : Built using primitive types   
 
 ▢ Linear data struture :- Linear data structures store elements in a sequence, one after another.   
-→ Each element is connected to the next or previous element.    
+&nbsp;&nbsp;&nbsp;&nbsp; → Each element is connected to the next or previous element.    
 e.g. - Array, Linked List, Stack, Queue   
 
 ▢ Non-linear data structure :- Data elements are not arranged in a single, sequential order is called non-linear data structure.  
