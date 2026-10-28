@@ -11,11 +11,13 @@ Organization — Clean and structured code.
 Consistency — Same button style across the entire app.  
 
 1. view :- It is a basic block of code, It is used to create containers and organize other components.  
-| important props | what it does                             | common values         |
-| :---------------: | :----------------------------------------: | :---------------------: |
-| style           | Main way to style the View               | Style object          |
-| onLayout        | Get dimensions of the View               | ({nativeEvent}) => {} |
-| accessible      | Makes View accessible for screen readers | true / false          |
+
+| Important props | What it does                             | Common values       |
+| :---------------: | :----------------------------------------: | :-------------------: |
+| style           | Main way to style the View               | Style object        |
+| onLayout        | Get dimensions of the View               | (nativeEvent) => {} |
+| accessible      | Makes View accessible for screen readers | true / false        |
+
 
 2. text :- used to display text.
 | prop          | what it does                            | common values                    |
