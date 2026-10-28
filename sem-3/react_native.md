@@ -150,10 +150,10 @@ Consistency — Same button style across the entire app.
 
 1. Camere components : 
 
-▢ CameraView : users see what their phone's camera is capturing, just like when they open the camera in WhatsApp or Instagram.
+&nbsp;&nbsp;&nbsp;&nbsp;▢ CameraView : users see what their phone's camera is capturing, just like when they open the camera in WhatsApp or Instagram.
 → We used it for camera apps, qr code scanners, barvode scanners, banking applications, document scanning apps, attendance system, face verification app, social media apps.
 
-▢ CameraView props : 
+&nbsp;&nbsp;&nbsp;&nbsp;▢ CameraView props : 
 1. facing - It is a prop of CameraView that determines which camera the application should use: the front camera or the back camera. (front, back)
 2. flash - The flash prop controls how the camera flash behaves when taking a photo. (on, off, auto)
 3. autofocus - The autofocus prop controls whether the camera automatically adjusts its focus to make the subject look sharp and clear.(on, off)
@@ -162,15 +162,14 @@ Consistency — Same button style across the entire app.
    false : Records video with audio., true : Records video without audio.
 6. zoom - The zoom prop controls how much the camera is zoomed in or zoomed out. (0-no zoom(default), 0.5-meduim zoom, 1-maximum zoom)
 
-▢ camera view methods :
+&nbsp;&nbsp;&nbsp;&nbsp;▢ camera view methods :
 
 1. takePictureAsync() - It is a method provided by expo-camera that is used to capture a photo from the device camera.
 → When the user taps the Capture button, this method takes a picture and returns information about the captured image.
 → Is takePictureAsync() Asynchronous? - It is an asynchronous method, which means it does not return the captured photo immediately, instead it returns a promise  
 → It returns - uri, width, height
 
-
-▢ useCameraPermission() :- That helps us check whether the user has allowed the app to use the device's camera and request permission when needed.
+&nbsp;&nbsp;&nbsp;&nbsp;▢ useCameraPermission() :- That helps us check whether the user has allowed the app to use the device's camera and request permission when needed.
 → what does the hook return :
 | value               | description                                   |
 | :-------------------: | :---------------------------------------------: |
@@ -179,7 +178,7 @@ Consistency — Same button style across the entire app.
 
 → permission states : granted(user allowed camera access), denied(user rejected camera access), undetermind(application has never requested camera permission before)
 
-▢ takePictureAsync() options :-
+&nbsp;&nbsp;&nbsp;&nbsp;▢ takePictureAsync() options :-
 | option         | purpose                                | value                     |
 | :--------------: | :--------------------------------------: | :-------------------------: |
 | quality        | Controls image quality and compression | 0-low, 1-high             |
@@ -188,20 +187,20 @@ Consistency — Same button style across the entire app.
 | skipProcessing | Skips additional image processing      | true, false(default)      |
 | shutterSound   | Enables or disables the shutter sound  | true, false(if supported) |
 
-◯ Vedio recording :-
+&nbsp;&nbsp;&nbsp;&nbsp;▢ Vedio recording :-
 
-▢ there are 2 primary methods for vedio recording :-
+&nbsp;&nbsp;&nbsp;&nbsp;▢ there are 2 primary methods for vedio recording :-
 | method          | purpose                           |
 | :---------------: | :---------------------------------: |
 | recordAsync()   | Starts recording a video          |
 | stopRecording() | Stops the current video recording |
 
-◯ QR code and barcode scanning :-
+&nbsp;&nbsp;&nbsp;&nbsp;▢ QR code and barcode scanning :-
 
-▢ QR code :-
+&nbsp;&nbsp;&nbsp;&nbsp;▢ QR code :-
 Code is a two-dimensional barcode that can store different types of information like website urls, contact information, wifi Credentials, payment information, text messages, product information.
 
-▢ Barcode :- 
+&nbsp;&nbsp;&nbsp;&nbsp;▢ Barcode :- 
 It is a machine-readable representation of numbers or characters, usually represented by a pattern of parallel lines and spaces.
 
 2. Location :-
