@@ -4,11 +4,11 @@ REACT NATIVE
 
 ▢ what are components :- components are reusable building blocks of the UI.
 
-what is the benifit of components :-
-Reusability — Write once, use anywhere.
-Maintainability — Easier to update and fix bugs.
-Organization — Clean and structured code.
-Consistency — Same button style across the entire app.
+▢ what is the benifit of components :-
+Reusability — Write once, use anywhere.  
+Maintainability — Easier to update and fix bugs.  
+Organization — Clean and structured code.  
+Consistency — Same button style across the entire app.  
 
 1. view :- It is a basic block of code, It is used to create containers and organize other components.
 | important props | what it does                             | common values         |
