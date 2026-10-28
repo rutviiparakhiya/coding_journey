@@ -11,13 +11,14 @@ Organization — Clean and structured code.
 Consistency — Same button style across the entire app.  
 
 1. view :- It is a basic block of code, It is used to create containers and organize other components.  
+
 | Important props | What it does                             | Common values       |
 | :---------------: | :----------------------------------------: | :-------------------: |
 | style           | Main way to style the View               | Style object        |
 | onLayout        | Get dimensions of the View               | (nativeEvent) => {} |
 | accessible      | Makes View accessible for screen readers | true / false        |
 
-2. text :- used to display text.
+1. text :- used to display text.
 | prop          | what it does                            | common values                    |
 | :-------------: | :---------------------------------------: | :--------------------------------: |
 | style         | Applies styling (fontSize, color, etc.) | Style object                     |
@@ -25,7 +26,7 @@ Consistency — Same button style across the entire app.
 | ellipsizeMode | How to truncate text                    | "tail", "head", "middle", "clip" |
 | onPress       | Makes text clickable                    | () => {}                         |
 
-3. Image :- Displays images from local assets or remote URLs.
+1. Image :- Displays images from local assets or remote URLs.
 | prop                   | what it does                          | common values                           |
 | :----------------------: | :-------------------------------------: | :---------------------------------------: |
 | source                 | Image source (local or remote)        | require() or { uri: '...' }             |
@@ -34,7 +35,7 @@ Consistency — Same button style across the entire app.
 | defaultSource          | Placeholder image while loading (iOS) | Local image                             |
 | loadingIndicatorSource | Placeholder while loading (Android)   | Local image                             |
 
-4. scrollview :- It is used to see content that is bigger than the screen by scrolling.
+1. scrollview :- It is used to see content that is bigger than the screen by scrolling.
 | prop                           | what it does                          | common values          |
 | :------------------------------: | :-------------------------------------: | :----------------------: |
 | horizontal                     | Enables horizontal scrolling          | true                   |
@@ -43,7 +44,7 @@ Consistency — Same button style across the entire app.
 | showsHorizontalScrollIndicator | Shows/hides horizontal scrollbar      | false                  |
 | contentContainerStyle          | Style for the inner content container | Style object           |
 
-5. flatlist :- It is used to display a list of items. It shows only the items currently visible on the screen, so it works well with large lists.
+1. flatlist :- It is used to display a list of items. It shows only the items currently visible on the screen, so it works well with large lists.
 | prop                   | What it does                        | example                                |
 | :----------------------: | :-----------------------------------: | :--------------------------------------: |
 | data                   | Array of data to display            | users                                  |
@@ -54,7 +55,7 @@ Consistency — Same button style across the entire app.
 | ListFooterComponent    | Component at the bottom of the list | <Text>End of list</Text>               |
 | refreshControl         | Pull-to-refresh functionality       | <RefreshControl ... />                 |
 
-6. section list :- It used to display a list of items grouped into different sections, where each section has its own heading.
+1. section list :- It used to display a list of items grouped into different sections, where each section has its own heading.
 | props          | what is does                                     | common values                 |
 | :--------------: | :------------------------------------------------: | :-----------------------------: |
 | onPress        | Called when pressed                              | () => {}                      |
@@ -64,12 +65,12 @@ Consistency — Same button style across the entire app.
 | android_ripple | Customize ripple effect on Android               | { color: '#fff', radius: 20 } |
 | hitSlop        | Increases touchable area without changing layout | { top: 10, bottom: 10 }       |
 
-7. pressable :- It is a modern alternative to TouchableOpacity that gives you better control over touches and lets you change styles dynamically when pressed.
+1. pressable :- It is a modern alternative to TouchableOpacity that gives you better control over touches and lets you change styles dynamically when pressed.
 | props   | when it does                                     | common values           |
 | :-------: | :------------------------------------------------: | :-----------------------: |
 | hitSlop | Increases touchable area without changing layout | { top: 10, bottom: 10 } |
 
-8. touchable opacity :- It makes a component clickable and makes it slightly transparent when pressed.
+1. touchable opacity :- It makes a component clickable and makes it slightly transparent when pressed.
 | prop          | What it does                               | Common Values |
 | :-------------: | :------------------------------------------: | :-------------: |
 | onPress       | Function called when pressed               | () => {}      |
@@ -78,13 +79,13 @@ Consistency — Same button style across the entire app.
 | disabled      | Disables the button                        | true / false  |
 | onLongPress   | Called when long pressed                   | () => {}      |
 
-9. safearea view :- It keeps your app content away from areas like camera cutouts, bottom gesture bar etc.
+1. safearea view :- It keeps your app content away from areas like camera cutouts, bottom gesture bar etc.
 | props | what it does                              | common values                      |
 | :-----: | :-----------------------------------------: | :----------------------------------: |
 | style | Main styling (usually flex: 1)            | { flex: 1 }                        |
 | edges | Control which edges get safe area padding | ["top", "bottom", "left", "right"] |
 
-10. StatusBar :- It Controls the appearance of the device status bar.
+1.  StatusBar :- It Controls the appearance of the device status bar.
 | props           | when it use                            | common values                   |
 | :---------------: | :--------------------------------------: | :-------------------------------: |
 | barStyle        | Color of status bar icons/text         | "dark-content", "light-content" |
@@ -93,7 +94,7 @@ Consistency — Same button style across the entire app.
 | hidden          | Hide the status bar completely         | true / false                    |
 | animated        | Animate changes in status bar          | true / false                    |
 
-11.  model :- It displays content on top of the main screen.
+1.   model :- It displays content on top of the main screen.
 | props          | when it does                               | common values                |
 | :--------------: | :------------------------------------------: | :----------------------------: |
 | visible        | Controls whether modal is shown            | true / false                 |
@@ -102,7 +103,7 @@ Consistency — Same button style across the entire app.
 | onRequestClose | Called when Android back button is pressed | () => setModalVisible(false) |
 | onShow         | Called when modal is shown                 | () => {}                     |
 
-12.  activity indicator :- It is native component that displays a loding spinner, it is commonly used to show that content is loading.
+1.   activity indicator :- It is native component that displays a loding spinner, it is commonly used to show that content is loading.
 | props            | what it does                                      | example value          |
 | :----------------: | :-------------------------------------------------: | :----------------------: |
 | size             | Size of the spinner                               | "small" or "large"     |
@@ -110,7 +111,7 @@ Consistency — Same button style across the entire app.
 | animating        | Controls whether the indicator is spinning        | true / false           |
 | hidesWhenStopped | Hides the indicator when animating is false (iOS) | true / false           |
 
-13.  switch :- It is a toggle button (ON/OFF switch) commonly used for settings, preferences, dark mode, notifications, etc.
+1.   switch :- It is a toggle button (ON/OFF switch) commonly used for settings, preferences, dark mode, notifications, etc.
 | props               | what it does                                   | example                               |
 | :-------------------: | :----------------------------------------------: | :-------------------------------------: |
 | value               | Current state of the switch (ON/OFF)           | true / false                          |
@@ -120,13 +121,13 @@ Consistency — Same button style across the entire app.
 | ios_backgroundColor | Background color when switch is OFF (iOS only) | '#3e3e3e'                             |
 | disabled            | Disables the switch                            | true / false                          |
 
-14.  refresh control :- It is native component that provides pull to refresh functinoality.
+1.   refresh control :- It is native component that provides pull to refresh functinoality.
 | props      | when to use                                | example value |
 | :----------: | :------------------------------------------: | :-------------: |
 | refreshing | Controls whether the loader is visible     | true / false  |
 | onrefresh  | Function called when user pulls to refresh | () => {}      |
 
-15.  TextInput :- TextInput is React Native’s equivalent of the HTML input and textarea elements. It is essential for forms, login screens, search bars, chat inputs, and almost any user data collection.
+1.   TextInput :- TextInput is React Native’s equivalent of the HTML input and textarea elements. It is essential for forms, login screens, search bars, chat inputs, and almost any user data collection.
 | props           | when it does            | common values |
 | :---------------: | :-----------------------: | :-------------: |
 | secureTextEntry | Masks input (passwords) | true / false  |
