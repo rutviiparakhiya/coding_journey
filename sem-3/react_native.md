@@ -18,7 +18,8 @@ Consistency — Same button style across the entire app.
 | onLayout        | Get dimensions of the View               | (nativeEvent) => {} |
 | accessible      | Makes View accessible for screen readers | true / false        |
 
-1. text :- used to display text.
+2. text :- used to display text.
+
 | prop          | what it does                            | common values                    |
 | :-------------: | :---------------------------------------: | :--------------------------------: |
 | style         | Applies styling (fontSize, color, etc.) | Style object                     |
