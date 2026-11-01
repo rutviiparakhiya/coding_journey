@@ -13,7 +13,7 @@ C (mid-level-language)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → Disadvantages: Needs the interpreter installed to run.  
 
 ◯ Identifiers : Identifiers are used to identify the variables, function, or other program elements.     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. → int count; — Here, count is the identifier.
+&nbsp;&nbsp;&nbsp;&nbsp; e.g. → int count; — Here, count is the identifier.
 
 ◯ Keywords : Keywords are reserved words in C that have special meaning to the compiler.
 
@@ -29,11 +29,11 @@ C (mid-level-language)
 | default  | it     | static   | volatile |
 | do       | double | int      | while    | 
 			
-◯ Data Types : Data types define the type of data where a variable can store.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Primitive: it stores simple value and its value stored directly in memory.
- 	   		e.g. = int, char, float, double, bool, short, int, long, long long, long double, void
- 				(i)   singed  - it can store both positive and negative values.
- 				(ii) unsinged - it can store only zero and positive.
+◯ Data Types : Data types define the type of data where a variable can store.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Primitive: it stores simple value and its value stored directly in memory.  
+ 	   		e.g. = int, char, float, double, bool, short, int, long, long long, long double, void   
+ 				(i)   singed  - it can store both positive and negative values.   
+ 				(ii) unsinged - it can store only zero and positive.   
 
  		1. Non-primitive: it stores multiple values and stores an address in memory, actually includes		Derived Enumeration.
  				(i)  Derived:    it can store multiple values.
