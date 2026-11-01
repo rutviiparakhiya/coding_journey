@@ -16,8 +16,11 @@ Next.js is a React-based framework used to build fast, SEO-friendly, and full-st
 → It provides built in features such as file based routing, multiple rendering strategies, server side capabilites, data fetching, image optimization, and TypeScript support and These features reduce the need to configure everything manually and make application development easier and more efficient.   
 
 ◯ Diffrence between app router and page router :-
-| app router | page router |
-| :----------: | :-----------: |
+| app router                           | page router           |
+| :------------------------------------: | :---------------------: |
+| handeld by page.tsx                  | handeled by index.tsx |
+| when page is not found not-found.tsx | 404.tsx               |
+| for error file named error.tsx and for layout layout.tsx | we were doing manually implementation |
 
 ◯ File-based-routing :- The application's routing system is automatically determined by the structure of your files and folders.   
 
@@ -27,7 +30,7 @@ Next.js is a React-based framework used to build fast, SEO-friendly, and full-st
 3. Dynamic routes - they are used when a part of the URL changes, using square brackets like [id], such as /products/1 or /products/25.   
 
 ▢ Method of getting values from url :-
-1. route parameters - they take values from dynamic URL segments, such as id = "25" in /products/25, to identify which resource the page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; displays.    
+1. route parameters(part of path) - they take values from dynamic URL segments, such as id = "25" in /products/25, to identify which resource the page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; displays.    
 2. search parameters - the values written after ? in a URL, used for searching, filtering, sorting, or pagination, such as /products? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; search=phone.    
 
 ◯ Diffrence between route parametere and search parametere :-    
@@ -56,7 +59,7 @@ layout concepts and benifits :
 5. layout Hierarchy - it is the order in which multiple nested layouts wrap a page, from the root layout to the innermost layout.
 6. Different Layouts for Different Sections - Different sections of an application can use different layouts, and route groups ( ) help organize &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; them without changing the URL.  
 
-◯ Server Components :- That run on the server by default in Next.js App Router and are mainly used for fetching data and accessing server- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; side resources.  
+◯ Server Components(by default) :- That run on the server by default in Next.js App Router and are mainly used for fetching data and accessing server- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; side resources.  
 
 ◯ Client Components :- They are components that use "use client" to enable interactivity, React hooks, event handlers, and browser APIs in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next.js.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → "use clinet" - It is a directive used at the top of a file to create a Client Component boundary when client-side &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; features are required.  
@@ -132,9 +135,46 @@ When to Use SSG : Product pages with known IDs, Blogs, Documentation, About and 
 Advantages : Good scalability, Less work for the server on each request, Good SEO, Fast page delivery
 Disadvantages : Not ideal for content that must change for every user's request, Rebuilding many pages can take time, Content can become outdated until regenerated.
 
-◯ ISR — Incremental Static Regeneration(Static Rendering + Revalidation) :- ISR means updating statically generated pages after a specified time or when revalidation is triggered, without rebuilding the entire application.
+◯ ISR(incremental static regenration) — Incremental Static Regeneration(Static Rendering + Revalidation) :- ISR means updating statically generated pages after a specified time or when revalidation is triggered, without rebuilding the entire application.
 How it works : Generate Static Page → Serve Cached Page → Revalidate → Regenerate Page → Serve Updated Version
 When to Use ISR : Travel listings, Real-estate listings, Blog listings, News websites, Product catalogs
 Advantages: Fast responses from cached pages, Content can be refreshed without rebuilding the entire application, Reduces repeated server work. 
 Disadvantages: Content may remain outdated until revalidation occurs, Regeneration can add server work, Revalidation timing and cache behavior require careful configuration.
 
+◯ caching - It is the process of storing data or a result temporarily so that it can be reused later without doing the same work again.
+
+▢ Cashing layres :  
+| concept             | what it does                                 | where   |
+| :-------------------: | :--------------------------------------------: | :-------: |
+| data cache          | stores fetched data                          | server  |
+| full route cache    | stored rendered route output                 | server  |
+| clinet route cache  | Stores route segments used during navigation | browser |
+| Request Memoization | Avoids duplicate requests during a render    | server  |
+
+▢ What is cache behaviour :-  
+It means how caching works in an application — what data is stored, when it is reused, when it is updated, and when it is fetched again.
+→ It depends on ,
+1. what is being cached
+2. cached configuration
+3. wheater the route is statoc or daynamic
+4. revalidationn setting
+5. next js version
+
+◯ Revalidation :-  
+It is the process of refreshing cached data when it becomes outdated, according to a defined strategy.
+
+▢ There are 2 types of revalidation :  
+1. time-based - It means setting a time interval after which cached data becomes eligible to be refreshed.
+2. on-demand - It means refreshing or invalidating cached data when a specific event or action occurs, instead of waiting for a time interval.
+
+◯ Forms and Validation :-
+
+▢ There are 2 types of validation :-
+| clinet-side validation              | server-side validation                        |
+| :-----------------------------------: | :---------------------------------------------: |
+| it runs in browser                  | it runs on server                             |
+| provides immidiate feedback         | Checks submitted data at the trusted boundary |
+| can prevent unnecessary submissions | Must not trust client-provided data           |
+
+◯ What ar server actions :-
+It is an asynchronous function that runs on the server and can be invoked from a Next.js application to perform operations such as saving data, creating a user, or updating a product.

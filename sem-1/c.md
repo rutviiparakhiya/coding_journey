@@ -1,4 +1,4 @@
-															C (mid-level-language)
+C (mid-level-language)
 
 ◯ Software : Software is a collection of programs.  
 
@@ -18,22 +18,16 @@
 ◯ Keywords : Keywords are reserved words in C that have special meaning to the compiler.
 
 
-
-			auto    |double  |int     |struct  
-			--------+--------+--------+--------
-			break   |else    |long    |switch  
-			--------+--------+--------+--------
-			case    |Enum    |register|typedef 
-			--------+--------+--------+--------
-			char    |extern  |return  |union   
-			--------+--------+--------+--------
-			const   |float   |short   |unsigned
-			--------+--------+--------+--------
-			continue|for     |signed  |void    
-			--------+--------+--------+--------
-			default |goto    |size of |volatile
-			--------+--------+--------+--------
-			do      |it      |static  |while   
+|          |        |          |          |
+| :--------: | :------: | :--------: | :--------: |
+| break    | else   | long     | struct   |
+| case     | enum   | register | switch   |
+| char     | extern | return   | typedef  |
+| const    | float  | short    | union    |
+| auto     | for    | signed   | unsigned |
+| continue | goto   | size of  | void     |
+| default  | it     | static   | volatile |
+| do       | double | int      | while    | 
 			
 ◯ Data Types : Data types define the type of data where a variable can store.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Primitive: it stores simple value and its value stored directly in memory.
@@ -41,13 +35,13 @@
  				(i)   singed  - it can store both positive and negative values.
  				(ii) unsinged - it can store only zero and positive.
 
- 		2. Non-primitive: it stores multiple values and stores an address in memory, actually includes		Derived Enumeration.
+ 		1. Non-primitive: it stores multiple values and stores an address in memory, actually includes		Derived Enumeration.
  				(i)  Derived:    it can store multiple values.
  					e.g. = array, pointer, structure, union
  				(ii) Enumeration: A user-defined data type used to name integer constants.
 					e.g. = enum
 
- 		3. Void: A function that doesn’t return anything
+ 		2. Void: A function that doesn’t return anything
  			e.g. = void main();
 
 			char    |1(in bytes)

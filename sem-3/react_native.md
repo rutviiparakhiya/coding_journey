@@ -433,7 +433,7 @@ It is a location provided by Expo for storing files that an application wants to
 A cache is a place where data is stored temporarily so it can be reused efficiently instead of being downloaded or generated again.
 
 ▢ What is Path.cache?
-epresents the application's cache directory in expo-file-system.
+represents the application's cache directory in expo-file-system.
 
 ▢ A FileHandle provides lower-level control over a file, allowing you to read or write data in smaller portions and control where operations happen within the file.
 

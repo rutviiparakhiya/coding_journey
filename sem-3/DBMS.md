@@ -32,6 +32,7 @@ it is a database design model used to plan and represent the structure of a data
     ▭ - entity (it is a person, place, object, or thing & it's anything about which we store data in a database)
     ◇ - relationship (Relationship shows the connection between two entities)
     ⬭ - attribute (Attribute is the information or property of an entity)
+    _ - primary key
 
 #_Relational model: it stores data in tables with rows and columns.    
 
@@ -344,7 +345,7 @@ Multi-Level Index
    (b) sparse - instead of storing an index entry for every record, it stores only a few entries, usually one for each data block, Requires less storage 
 
 2. secondary index :- It is used when the data file is not physically sorted according to the search key.
-   
+
 ◯ Diffrence between primary and secondary index :-
 | primary index                                | secondary index                          |
 | :--------------------------------------------: | :----------------------------------------: |
