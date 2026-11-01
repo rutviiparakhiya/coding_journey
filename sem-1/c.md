@@ -41,8 +41,8 @@ C (mid-level-language)
 	(ii) Enumeration - A user-defined data type used to name integer constants.   
 &nbsp;&nbsp;&nbsp;&nbsp; e.g. = enum   
 
-2. Void: A function that doesn’t return anything
- 			e.g. = void main();
+2. Void: A function that doesn’t return anything   
+&nbsp;&nbsp;&nbsp;&nbsp; e.g. = void main();
 
 			char    |1(in bytes)
 			--------+-----------
