@@ -37,9 +37,9 @@ C (mid-level-language)
 
 1. Non-primitive: it stores multiple values and stores an address in memory, actually includes Derived Enumeration.   
 	(i)  Derived - it can store multiple values.   
- 			e.g. = array, pointer, structure, union    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. = array, pointer, structure, union    
 	(ii) Enumeration - A user-defined data type used to name integer constants.   
-			e.g. = enum   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. = enum   
 
 2. Void: A function that doesn’t return anything
  			e.g. = void main();
