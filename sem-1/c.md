@@ -44,23 +44,16 @@ C (mid-level-language)
 2. Void: A function that doesn’t return anything   
  e.g. = void main();
 
-			char    |1(in bytes)
-			--------+-----------
-			short   |2          
-			--------+-----------
-			int     |4          
-			--------+-----------
-			long    |4          
-			--------+-----------
-			longlong|8          
-			--------+-----------
-			float   |4          
-			--------+-----------
-			double  |8          
-			--------+-----------
-			long -  |8/16(varies
-			 double |bycompiler)
-			
+| char        | in bytes                 |
+| :-----------: | :------------------------: |
+| short       | 2                        |
+| int         | 4                        |
+| long        | 4                        |
+| longlong    | 8                        |
+| float       | 4                        |
+| double      | 8                        |
+| long-double | 8/16(varies by compiler) |
+
 #_What is Type Modifiers:
  Type modifiers are keywords that change the size or range of a data type in C.
  		e.g. = short int, long int, signed int, unsigned int, long double, unsigned char.
