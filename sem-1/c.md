@@ -32,14 +32,14 @@ C (mid-level-language)
 ◯ Data Types : Data types define the type of data where a variable can store.    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Primitive: it stores simple value and its value stored directly in memory.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. = int, char, float, double, bool, short, int, long, long long, long double, void   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)   singed  - it can store both positive and negative values.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) singed - it can store both positive and negative values.   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) unsinged - it can store only zero and positive.   
 
-1. Non-primitive: it stores multiple values and stores an address in memory, actually includes		Derived Enumeration.
- 				(i)  Derived:    it can store multiple values.
- 					e.g. = array, pointer, structure, union
- 				(ii) Enumeration: A user-defined data type used to name integer constants.
-					e.g. = enum
+1. Non-primitive: it stores multiple values and stores an address in memory, actually includes Derived Enumeration.   
+	(i)  Derived - it can store multiple values.   
+ 			e.g. = array, pointer, structure, union    
+	(ii) Enumeration - A user-defined data type used to name integer constants.   
+			e.g. = enum   
 
 2. Void: A function that doesn’t return anything
  			e.g. = void main();
