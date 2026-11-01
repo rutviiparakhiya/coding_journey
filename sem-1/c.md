@@ -35,13 +35,13 @@ C (mid-level-language)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)   singed  - it can store both positive and negative values.   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) unsinged - it can store only zero and positive.   
 
- 		1. Non-primitive: it stores multiple values and stores an address in memory, actually includes		Derived Enumeration.
+1. Non-primitive: it stores multiple values and stores an address in memory, actually includes		Derived Enumeration.
  				(i)  Derived:    it can store multiple values.
  					e.g. = array, pointer, structure, union
  				(ii) Enumeration: A user-defined data type used to name integer constants.
 					e.g. = enum
 
- 		2. Void: A function that doesn’t return anything
+2. Void: A function that doesn’t return anything
  			e.g. = void main();
 
 			char    |1(in bytes)
