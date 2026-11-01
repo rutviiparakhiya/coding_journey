@@ -42,7 +42,7 @@ C (mid-level-language)
 &nbsp;&nbsp;&nbsp;&nbsp; e.g. = enum   
 
 2. Void: A function that doesn’t return anything   
-&nbsp;&nbsp;&nbsp;&nbsp; e.g. = void main();
+&nbsp;&nbsp; e.g. = void main();
 
 			char    |1(in bytes)
 			--------+-----------
