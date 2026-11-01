@@ -5,15 +5,15 @@ C (mid-level-language)
 ◯ Program : The program is a collection of instructions.  
 
 ◯ Compiler : It translates code into machine language (binary).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ advantages - Faster execution (code is already in machine code).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ disadvantages - Even one error stops compilation.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → advantages - Faster execution (code is already in machine code).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → disadvantages - Even one error stops compilation.  
 
 ◯ interpreter : Translates code line by line during execution.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ Advantages: No need to compile the whole code.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✓ Disadvantages: Needs the interpreter installed to run.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → Advantages: No need to compile the whole code.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → Disadvantages: Needs the interpreter installed to run.  
 
 ◯ Identifiers : Identifiers are used to identify the variables, function, or other program elements.     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. ⇾ int count; — Here, count is the identifier.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. → int count; — Here, count is the identifier.
 
 ◯ Keywords : Keywords are reserved words in C that have special meaning to the compiler.
 
