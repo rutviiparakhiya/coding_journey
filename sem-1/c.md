@@ -56,7 +56,7 @@ C (mid-level-language)
 
 ◯ What is Type Modifiers :-  
  Type modifiers are keywords that change the size or range of a data type in C.   
- 		e.g. = short int, long int, signed int, unsigned int, long double, unsigned char.   
+ 		e.g. - short int, long int, signed int, unsigned int, long double, unsigned char.   
 
 ◯ What is Type casting?
 converting one data type into another.
@@ -68,21 +68,21 @@ converting one data type into another.
  			e.g. = float a = 5.5; (A casting from a larger data type to a smaller data type.)
  			          int b = (int)a;   // float manually converted to int
 
-◯ Operators:
- 	1. Arithmetic Operator: +,-,*,/,%
- 	2. Comparison Operator: (it gives output in true and false / 0 or 1)
-				(i)  equality operator: ==, ===, !=, !==
-				(ii) Relational Operator: >, <, >=, <=, ==, != 
- 	3. Logical Operator: &&, ||, ! (! -> true=false, false=true)
- 	4. Assignment Operator: =, +=, -=, *=, /=, %=
- 	5. Increment and Decrement Operator: ++, --
- 	6. Bitwise Operator: &, |, ^, ~, <<, >>
-	7. String Operator: + (can join strings)
+◯ Operators :-    
+ 	1. Arithmetic Operator: +,-,*,/,%     
+ 	2. Comparison Operator: (it gives output in true and false / 0 or 1)   
+				(i)  equality operator: ==, ===, !=, !==   
+				(ii) Relational Operator: >, <, >=, <=, ==, !=     
+ 	3. Logical Operator: &&, ||, ! (! -> true=false, false=true)     
+ 	4. Assignment Operator: =, +=, -=, *=, /=, %=     
+ 	5. Increment and Decrement Operator: ++, --     
+ 	6. Bitwise Operator: &, |, ^, ~, <<, >>     
+	7. String Operator: + (can join strings)     
 
-#_Switch Case:
- A multi-way decision statement.
+◯ Switch Case :-   
+ A multi-way decision statement.    
 
-#_Loop:
+◯ Loop:
  	1. for loop ->
  		for(initialization; condition; increment/decrement){}
  	2. While loop ->
