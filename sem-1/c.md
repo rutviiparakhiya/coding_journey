@@ -79,21 +79,22 @@ converting one data type into another.
  	6. Bitwise Operator: &, |, ^, ~, <<, >>     
 	7. String Operator: + (can join strings)     
 
-◯ Switch Case :-   
- A multi-way decision statement.    
+◯ Switch Case :- A multi-way decision statement.    
 
-◯ Loop:
- 	1. for loop ->
- 		for(initialization; condition; increment/decrement){}
- 	2. While loop ->
- 		while(condition){
- 			increment/decrement
- 			}
- 	3. Do while loop ->
- 		do{
- 		   increment/decrement
- 		  }
- 		   while(condition);
+◯ Loop :-
+ 	1. for loop ->   
+ 		for(initialization; condition; increment/decrement){}   
+
+ 	2. While loop ->   
+ 		while(condition){   
+ 			increment/decrement   
+ 			}    
+
+ 	3. Do while loop ->    
+ 		do{   
+ 		   increment/decrement    
+ 		  }   
+ 		   while(condition);   
 
 Difference between for, while and do-while loop : 
 => for : (i) number of iterations is known.
