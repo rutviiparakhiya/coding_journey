@@ -54,11 +54,11 @@ C (mid-level-language)
 | double      | 8                        |
 | long-double | 8/16(varies by compiler) |
 
-#_What is Type Modifiers:
- Type modifiers are keywords that change the size or range of a data type in C.
- 		e.g. = short int, long int, signed int, unsigned int, long double, unsigned char.
+◯ What is Type Modifiers :-  
+ Type modifiers are keywords that change the size or range of a data type in C.   
+ 		e.g. = short int, long int, signed int, unsigned int, long double, unsigned char.   
 
-#_What is Type casting?
+◯ What is Type casting?
 converting one data type into another.
 
  		1. Implicit: implicit means automatic type conversion done by the compiler.
@@ -68,7 +68,7 @@ converting one data type into another.
  			e.g. = float a = 5.5; (A casting from a larger data type to a smaller data type.)
  			          int b = (int)a;   // float manually converted to int
 
-#_Operators:
+◯ Operators:
  	1. Arithmetic Operator: +,-,*,/,%
  	2. Comparison Operator: (it gives output in true and false / 0 or 1)
 				(i)  equality operator: ==, ===, !=, !==
