@@ -115,11 +115,9 @@ Difference between for, while and do-while loop :-
 
  	Goto:     goto is a jump statement used to transfer control to a labeled statement in a program.
 
-#_What is Array?
- An array stores multiple values of the same datatype in continuous memory.
+◯ What is Array : An array stores multiple values of the same datatype in continuous memory.
 
-#_What is String? 
- A string is a collection of characters stored in an array.
+◯ What is String : A string is a collection of characters stored in an array.
 
  		1. Character: A character string is an array of characters that	ends with a null character '\0'.
  			e.g. = char str[ ] = "C Programming";  // ends with '\0' automatically
@@ -127,7 +125,7 @@ Difference between for, while and do-while loop :-
  			e.g. = char *p = "Hello";
  			          printf("%c", *p);  
 
-#_String Handling Functions:
+◯ String Handling Functions:
 	1. strlen: length of string.
 
  	2. strcpy: Copy source to destination.
