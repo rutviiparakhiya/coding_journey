@@ -82,15 +82,15 @@ converting one data type into another.
 ◯ Switch Case :- A multi-way decision statement.    
 
 ◯ Loop :-
- 	1. for loop ->   
+1. for loop ->   
  		for(initialization; condition; increment/decrement){}   
 
- 	2. While loop ->   
+2. While loop ->   
  		while(condition){   
  			increment/decrement   
  			}    
 
- 	3. Do while loop ->    
+3. Do while loop ->    
  		do{   
  		   increment/decrement    
  		  }   
