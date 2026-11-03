@@ -96,16 +96,18 @@ converting one data type into another.
  		  }   
  		   while(condition);   
 
-Difference between for, while and do-while loop : 
-=> for : (i) number of iterations is known.
-	  (ii) condition is checked before executing the loop body.
-	  (iii) the loop may execute zero times.
-=> while : (i) number of iterations is known.
-	      (ii) condition is checked before executing the loop body.
-	      (iii) the loop may execute zero times.
-=>do-while : (i) loop must execute at least once.
-	          (ii) condition is checked after executing the loop body.
-	          (iii) even if the condition is false, the loop executes one time. 
+Difference between for, while and do-while loop :-  
+→ for : (i) number of iterations is known.  
+	  (ii) condition is checked before executing the loop body.   
+	  (iii) the loop may execute zero times.   
+
+→ while : (i) number of iterations is known.     
+	      (ii) condition is checked before executing the loop body.   
+	      (iii) the loop may execute zero times.   
+
+→ do-while : (i) loop must execute at least once.     
+	          (ii) condition is checked after executing the loop body.    
+	          (iii) even if the condition is false, the loop executes one time.   
 
  	Break:    The break statement is used to exit a loop immediately.
 
