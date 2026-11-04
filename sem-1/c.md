@@ -1,22 +1,21 @@
 C (mid-level-language)
 
-◯ Software : Software is a collection of programs.  
+◯ Software :- Software is a collection of programs.  
 
-◯ Program : The program is a collection of instructions.  
+◯ Program :- The program is a collection of instructions.  
 
-◯ Compiler : It translates code into machine language (binary).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → advantages - Faster execution (code is already in machine code).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → disadvantages - Even one error stops compilation.  
+◯ Compiler :- It translates code into machine language (binary).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → advantages : Faster execution (code is already in machine code).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → dis-advantages : Even one error stops compilation.  
 
-◯ interpreter : Translates code line by line during execution.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → Advantages: No need to compile the whole code.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → Disadvantages: Needs the interpreter installed to run.  
+◯ interpreter :- Translates code line by line during execution.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → advantages : No need to compile the whole code.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → dis-advantages : Needs the interpreter installed to run.  
 
-◯ Identifiers : Identifiers are used to identify the variables, function, or other program elements.     
+◯ Identifiers :- Identifiers are used to identify the variables, function, or other program elements.     
 &nbsp;&nbsp;&nbsp;&nbsp; e.g. → int count; — Here, count is the identifier.
 
-◯ Keywords : Keywords are reserved words in C that have special meaning to the compiler.
-
+◯ Keywords :- Keywords are reserved words in C that have special meaning to the compiler.
 
 |          |        |          |          |
 | :--------: | :------: | :--------: | :--------: |
@@ -29,7 +28,7 @@ C (mid-level-language)
 | default  | it     | static   | volatile |
 | do       | double | int      | while    | 
 			
-◯ Data Types : Data types define the type of data where a variable can store.    
+◯ Data Types :- Data types define the type of data where a variable can store.    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Primitive: it stores simple value and its value stored directly in memory.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. = int, char, float, double, bool, short, int, long, long long, long double, void   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) singed - it can store both positive and negative values.   
@@ -82,16 +81,13 @@ converting one data type into another.
 ◯ Switch Case :- A multi-way decision statement.    
 
 ◯ Loop :-
-1. for loop ->   
- 		for(initialization; condition; increment/decrement){}   
+1. for(initialization; condition; increment/decrement){}   
 
-2. While loop ->   
- 		while(condition){   
+2. 	while(condition){   
  			increment/decrement   
  			}    
 
-3. Do while loop ->    
- 		do{   
+3. 	do{   
  		   increment/decrement    
  		  }   
  		   while(condition);   
